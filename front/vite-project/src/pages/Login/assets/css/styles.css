@@ -1,0 +1,51 @@
+.card-content{
+
+    margin-top: 40px;
+
+}
+.box-area{
+    width: 930px;
+    border-radius: 10px;
+}
+
+
+.img-form{
+    width: 350px;
+    margin-top: 10px
+}
+
+.card-image{
+    background-color: #447a38a3;
+    border-radius: 10px;
+}
+
+
+.form-card{
+ margin-top: 30px;
+}
+
+.google{
+    width: 15px;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .box-area{
+        margin: 0 10px;     
+    }
+
+    .left-box{
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .right-box{
+        padding: 20px;
+    }
+    
+}
