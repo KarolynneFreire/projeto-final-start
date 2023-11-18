@@ -13,8 +13,12 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav mx-auto">
         <Link to='/'  className="nav-link">Home</Link>
-        <Link to='/login' className="nav-link">Login </Link>
         <Link to='/contato' className="nav-link">Contato</Link>
+      </div>
+    </div>
+    <div className="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavAltMarkup">
+      <div className="navbar-nav">
+        <Link to='/login' className="nav-link">Login </Link>
       </div>
     </div>
   </div>
