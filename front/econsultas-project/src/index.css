@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  font-family:  'Open Sans', Helvetica, sans-serif;
+
+}
+
+.nav{
+background-color: brown;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 2rem;
+color: white;
+}
+
+.nav-cont{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.nav ul{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.color{
+  margin-top: 50px;
+  background-color: #447A38 ; 
+  
+}
+
+.color-nav{
+  background-color: #447A38 ; 
+    
+}
+
+.teste{
+  color: #fff;
+}
+.tam-ico{
+font-size: 20px;
+}
+
+.texto-aviso{
+  font-size: 10px;
+  text-align: justify;
+}
