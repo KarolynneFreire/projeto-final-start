@@ -1,8 +1,18 @@
+.btn-color1{
+    background-color: #447a3836 !important;
+    color: white;
+  }
+
+
+
 .boody{
     display: grid;
     height: 100%;
     place-items: center;
     background-color: #447a3836;
+    padding: 0;
+    margin: 0;
+
 }
 
 
@@ -73,5 +83,51 @@
 }
 
 .btns button{
+    background-color: #fff;
+    width: 100%;
+    padding: 9px 0px;
+    outline: auto;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: #447A38;
+    transition: all 0.3s linear;
     
+}
+
+.btns button:first-child{
+    background-color: none;
+    margin-right: 5px;
+}
+
+.btns button:last-child{
+    background-color: #447A38;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.btns button:first-child:hover{
+    background-color: #447A38;
+    color: #fff;    
+}
+
+
+@media (max-width:1045px) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .container .box{
+        width: calc(50% -10px);
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .container .box{
+        width: 100%;
+    }
 }
