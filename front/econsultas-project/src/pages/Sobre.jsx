@@ -1,6 +1,12 @@
+import FormSatisfacao from "../componets/FormSatisfacao/FormSatisfacao";
+
+
 
 export default function Sobre() {
   return (
-    <div>Sobre</div>
+    <div>
+     <FormSatisfacao></FormSatisfacao>
+    </div>
   )
 }
+
