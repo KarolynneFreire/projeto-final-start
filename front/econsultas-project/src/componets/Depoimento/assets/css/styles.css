@@ -2,22 +2,27 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 500px;
+    height: 100%;
     background-color: #447A38;
+    padding: 20px;
 }
 
 .cards{
-    display: inline-block;
-    width: 320px;
-    height: 400px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* width: 45%;
+    height: 85%; */
     background-color: #fff;
-    margin: 35px;
+    margin: 40px;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-family:  'Open Sans', Helvetica, sans-serif;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10%;
+    border: 2px solid red;
 }
 
 .cards p,.cards h3{
@@ -27,16 +32,25 @@
 .cards p{
     height: 140px;
     margin-bottom: 25px;
+    padding: 10px;
 }
 
 .cards img{
-    margin-top: 10px;
+    margin: 15px 0;
     width: 150px;
     height: 150px;
 }
 
 .cards h3{
     margin-top: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .cards img{
+        width: 50%;
+        height: 50%;
+    }
 }
 
 @media screen and (max-width: 500px) {
