@@ -26,7 +26,7 @@ function Login() {
     event.preventDefault();
     setErrors(Validacao(values));
     if(errors.email === "" && errors.senha === ""){
-      axios.post('https://localhost:8081/login', values)
+      axios.post('http://localhost:8081/login', values)
       .then(res => {
         if(res.data === "Sucesso"){
           navigate('/home');
