@@ -22,7 +22,6 @@
     font-family:  'Open Sans', Helvetica, sans-serif;
     padding: 20px;
     border-radius: 10%;
-    border: 2px solid red;
 }
 
 .cards p,.cards h3{
@@ -45,12 +44,77 @@
     margin-top: 20px;
 }
 
+@media screen and (max-width: 1180px) {
+
+    .cards {
+        margin: 2%;
+    }
+
+    .cards p{
+        font-size: 0.9em;
+    }
+}
+
+
 @media screen and (max-width: 1050px) {
     
     .cards img{
         width: 50%;
         height: 50%;
     }
+
+}
+
+
+@media screen and (max-width: 1020px) {
+
+    .container-dep {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .cards{
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    .cards img{
+        width: 25%;
+        height: 25%;
+    }
+
+    .cards p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    .cards p {
+        font-size: 0.9rem;
+    }
+
+    .cards h1{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .cards {
+        width: 60%;
+    }
+
+    .cards p {
+        font-size: 0.8rem;
+    }
+
+    .cards img {
+        width: 40%;
+        height: 40%;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -64,20 +128,20 @@
     }
 
     .cards {
-        width: auto;
+        width: 60%;
         height: auto;
         font-size: 12px;
-        margin: 30px 15px;
+        margin: 30px auto;
     }
 
     .cards img{
-        margin-top: -70px;
+        /* margin-top: -70px; */
         width: 80px;
         height: 80px;
     }
 
-    .cards:nth-child(n+3) {
+    /* .cards:nth-child(n+3) {
         display: none; 
-    }
+    } */
 
 }

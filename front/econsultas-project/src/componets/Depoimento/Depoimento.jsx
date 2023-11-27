@@ -16,7 +16,7 @@ function index() {
                     <img src={renan} alt="Primeiro depoimento do cliente Renan" />
 
                 <p>
-                Estou bem satisfeito com o serviço.
+                    Estou bem satisfeito com o serviço.
                     O atendimento do profissional foi ótimo,
                     bem atencioso e parece gostar do que faz.
                     Com certeza, voltarei a utilizar a plataforma.
