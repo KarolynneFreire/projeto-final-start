@@ -9,7 +9,7 @@
     display: grid;
     height: 100%;
     place-items: center;
-    background-color: #447a3836;
+    background-color: #447A38;
     padding: 0;
     margin: 0;
 
@@ -26,7 +26,7 @@
 
 .container .box{
     width: calc(33% -10px);
-    background-color: #447A38;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,14 +38,14 @@
 
 .box .nome{
     margin: 10px 0 3px 0;
-    color: #fff;
+    color: #447A38;
     font-size: 18px;
     font-weight: 600;
 }
 
 .box .estrela i{
     font-size: 18px;
-    color: #fff;
+    color: #447A38;
     border-bottom: 5px;
 
 }
@@ -54,7 +54,7 @@
     margin: 10px 0;
     height: 150px;
     width: 150px;
-    background-color: #fff;
+    background-color: #447A38;
     padding: 3px;
     border-radius: 50%;
 }
@@ -64,7 +64,7 @@
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #447A38;
+    border: 2px solid #fff;
 }
 .box p{
     text-align: justify;
@@ -83,16 +83,16 @@
 }
 
 .btns button{
-    background-color: #fff;
+    background-color: #447A38;
     width: 100%;
     padding: 9px 0px;
     outline: auto;
-    border: 2px solid #fff;
+    border: 2px solid #447A38;
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
     font-weight: 400;
-    color: #447A38;
+    color: #fff;
     transition: all 0.3s linear;
     
 }
@@ -103,14 +103,14 @@
 }
 
 .btns button:last-child{
-    background-color: #447A38;
+    background-color: #fff;
     margin-left: 5px;
-    color: #fff;
+    color: #447A38;
 }
 
 .btns button:first-child:hover{
-    background-color: #447A38;
-    color: #fff;    
+    background-color: #fff;
+    color: #447A38;    
 }
 
 
