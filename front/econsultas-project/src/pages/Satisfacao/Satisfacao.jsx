@@ -17,18 +17,18 @@ const formTemplates = {
 function Satisfacao( ) {
 
   const [data, setData] = useState(formTemplates);  
-  const formComponets = [
-  <FormUser data = {data} />, 
-  <FormReview data = {data} />, 
-  <Thank data = {data}/>,
-];
 
-    const updataFielHandler = (key, value)=>{
-        setData(
-            (prev) =>{
-                return{...prev, [key]: value};
-             } );
-    };
+  const updataFielHandler = (key, value)=>{
+    setData((prev) =>{
+            return{...prev, [key]: value};
+         } );
+};
+  
+  const formComponets = [
+  <FormUser key="id-user" data = {data} updataFielHandler = {updataFielHandler}/>, 
+  <FormReview key="id-review" data = {data} updataFielHandler = {updataFielHandler} />, 
+  <Thank  key="id-thank" data = {data} />,
+];
 
   const {curretStep, curretComponent, changeStep, isLastStep, isFirstStep} = useForm(formComponets);
 
