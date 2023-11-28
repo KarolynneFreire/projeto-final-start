@@ -1,0 +1,30 @@
+.thack-container{
+    text-align: center;
+}
+
+.thack-container h2{
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.thack-container h3{
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.thack-container p{
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+    text-align: justify;
+}
+.review-data{
+    text-align: left;
+}
+
+.review-data svg{
+     margin-left: 5px;
+}
+
+.review-data span{
+    font-weight: bold;
+}

@@ -1,8 +1,7 @@
-import CardsProfissionais from '../componets/CardsProfissionais/Card'
 export default function Contato() {
   return (
     <>
-    <CardsProfissionais></CardsProfissionais>
+    <h1>Cliente</h1>
     </>
   )
 }
