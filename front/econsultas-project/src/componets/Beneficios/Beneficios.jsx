@@ -47,9 +47,6 @@ function beneficios() {
 
     <div className="item-15">Ao contratar nosso serviço, você poderá ter acesso a uma vasa rede de profissionais qualificados.</div>
     
-    <div className="item-16">
-    <img src={mulher} alt="#"/>
-    </div>
 </div>
 </div>
   )
