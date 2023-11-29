@@ -5,8 +5,7 @@ import Cliente from './pages/Cliente'
 import Home from './pages/Home'
 import Login from './pages/Login/Login'
 import Footer from "./componets/Footer/Footer"
-import Sobre from './pages/Sobre'
-
+import Satisfacao from './pages/Satisfacao/Satisfacao';
 
 
 
@@ -21,6 +20,7 @@ function App() {
       <Route path= '/cadastro' element = {<Cadastro/>}></Route>
       <Route path= '/cliente' element = {<Cliente/>}></Route>
       <Route path= '/sobre' element = {<Sobre/>}></Route>
+      <Route path= '/satisfacao' element = {<Satisfacao/>}></Route>
     </Routes>
     <Footer/>
     </>
