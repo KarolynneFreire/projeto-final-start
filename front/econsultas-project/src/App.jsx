@@ -5,9 +5,7 @@ import Cliente from './pages/Cliente'
 import Home from './pages/Home'
 import Login from './pages/Login/Login'
 import Footer from "./componets/Footer/Footer"
-import Sobre from './pages/Sobre'
 import Satisfacao from './pages/Satisfacao/Satisfacao';
-
 
 
 
