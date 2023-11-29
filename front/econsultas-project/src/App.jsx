@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Login from './pages/Login/Login'
 import Footer from "./componets/Footer/Footer"
 import Satisfacao from './pages/Satisfacao/Satisfacao';
+import Sobre from './pages/Sobre'
 
 
 
