@@ -24,7 +24,7 @@ function Cadastro() {
     event.preventDefault();
     setErrors(Validacao(values));
     if(errors.nome ==="" && errors.email === "" && errors.senha === ""){
-      axios.post('https://localhost:8081/cadastro', values)
+      axios.post('http://localhost:8081/cadastro', values)
       .then(res => {
         navigate ('/login');
       })
