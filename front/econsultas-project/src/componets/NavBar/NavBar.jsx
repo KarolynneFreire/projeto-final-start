@@ -15,7 +15,7 @@ export default function Navbar() {
         <Link to='/'  className="nav-link text-light link">Home</Link>
         <Link to='/cliente' className="nav-link text-light link">Cliente</Link>
         <Link to='/sobre' className="nav-link text-light link">Sobre</Link>
-        <Link to='/satisfacao' className="nav-link text-light link">Formulario Satisfacao</Link>
+        <Link to='/pagamento' className="nav-link text-light link">Pagamento</Link>
       </div>
     </div>
     <div className="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavAltMarkup">
