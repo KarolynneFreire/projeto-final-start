@@ -10,12 +10,9 @@ import Footer from "./componets/Footer/Footer"
 import Satisfacao from './pages/Satisfacao/Satisfacao';
 import Sobre from './pages/Sobre'
 
-
-
 function App() {
   return (
     <>
-<<<<<<< HEAD
     <Navbar/>
    
     <Routes>
@@ -25,20 +22,10 @@ function App() {
       <Route path= '/cliente' element = {<Cliente/>}></Route>
       <Route path= '/sobre' element = {<Sobre/>}></Route>
       <Route path= '/satisfacao' element = {<Satisfacao/>}></Route>
+      <Route path="/home-paciente" element={<HomePaciente />}></Route>
+      <Route path="/home-profissional" element={<HomeProfissional />}></Route>
     </Routes>
     <Footer/>
-=======
-      <Navbar />      
-        <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='/login' element={<Login />}></Route>
-          <Route path='/cadastro' element={<Cadastro />}></Route>
-          <Route path='/cliente' element={<Cliente />}></Route>
-          <Route path="/home-paciente" element={<HomePaciente />}></Route>
-          <Route path="/home-profissional" element={<HomeProfissional />}></Route>
-        </Routes>
-      <Footer />
->>>>>>> profissional
     </>
   )
 }
