@@ -4,6 +4,7 @@ header {
     background-position: center;
     padding: 20px;
     width: 100%;
+    margin: auto;
 }
 
 .conteudo-header {
@@ -14,29 +15,57 @@ header {
     
 }
 
-.texto-header {
+.conteudo-header .texto-header {
+    /* flex-basis: 50%; */
+    width: 45%;
+    text-align: left;
+    color: #F2F9E6;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* .texto-header {
     flex-basis: 50%;
     text-align: left;
     color: #F2F9E6;
     font-size: 20px;
-}
+} */
 
 
-.texto-header h1 {
+/* .texto-header h1 {
     margin-bottom: 30px;
-}
+} */
 
-.texto-header p {
+/* .texto-header p {
     flex-wrap: nowrap;
-}
+} */
 
-.imagem-header {
+/* .imagem-header {
     flex-basis: 50%;
+} */
+
+.conteudo-header .imagem-header {
+    width: 45%;
 }
 
 .imagem-header img {
-    width: 580px;
-    height: 373px;
+    width: 500px;
+    height: 313px;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .conteudo-header h1 {
+        font-size: 1.5em;
+    }
+
+    .conteudo-header p {
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -46,7 +75,11 @@ header {
     }
 
     .conteudo-header h1 {
-        font-size: 32px;
+        font-size: 28px;
+    }
+
+    .conteudo-header p {
+        font-size: 14px;
     }
 
     .imagem-header img {

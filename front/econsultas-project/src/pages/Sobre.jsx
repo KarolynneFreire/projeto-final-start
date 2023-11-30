@@ -1,6 +1,8 @@
-
 export default function Sobre() {
   return (
-    <div>Sobre</div>
+    <div>
+<h1>Sobre</h1>
+    </div>
   )
 }
+

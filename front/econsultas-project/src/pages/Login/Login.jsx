@@ -19,25 +19,26 @@ function Login() {
   })
 
   const handleInput = (event) =>{
-    setValues(prev =>({...prev,[event.target.email]: [event.target.value]}))
+    setValues({...values, [event.target.name]: event.target.value.trim()});
   }
 
   const handleSubmit = (event) =>{
     event.preventDefault();
-    setErrors(Validacao(values));
-    if(errors.email === "" && errors.senha === ""){
-      axios.post('https://localhost:8081/login', values)
-      .then(res => {
-        if(res.data === "Sucesso"){
-          navigate('/home');
-        }else{
-          alert("Não existe nenhum registro");
-        }
-      })
-      .catch(err => console.log(err));
+    const newErrors = Validacao(values);
+    setErrors(newErrors);
+
+    if(Object.values(newErrors).every(error => error === "")){
+      axios.post('http://localhost:8081/login', values)
+        .then(res => {
+          if(res.data === "Sucesso"){
+            navigate('/home-paciente');
+          } else {
+            alert("Credenciais inválidas");
+          }
+        })
+        .catch(err => console.log(err));
     }
   }
-
 
   return (
   <>

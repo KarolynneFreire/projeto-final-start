@@ -1,28 +1,53 @@
 .quem-somos {
+    width: 95%;
     display: flex;
     margin: 20px;
     padding: 10px;
     color: #447A38;
 }
 
+.imagem-quem-somos {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 .imagem-quem-somos img {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 50px;
 }
 
 .textos-quem-somos {
-    margin-left: 50px;
+    width: 100%;
+    height: 80%;
 }
 
 .texto-1-quem-somos {
-    margin: 40px 0 100px 0px;
+    margin: 60px auto 0 auto;
+    width: 80%;
+    padding-left: 20px;
 }
 
 .texto-2-quem-somos {
     display: flex;
-    margin-top: 100px;
+    flex-direction: column;
+    width: 80%;
+    margin: 25px auto 100px auto;
+    padding: 20px 0 0 20px;
 }
 
+@media screen and (max-width: 750px) {
+    .imagem-quem-somos{
+        display: none;
+    }
+
+    .texto-2-quem-somos {
+        margin: 0 auto 50px auto;
+    }
+}
 
 @media screen and (max-width: 500px) {
 
@@ -34,14 +59,9 @@
         margin: 0px;
     }
 
-    .texto-1-quem-somos {
-      margin: 0;
-    }
-
     .texto-2-quem-somos {
         display: flex;
         flex-direction: column;
-        gap: 15px;
-        margin-top: 2.5rem;
+        margin: 0 auto 50px auto;
     }
 }

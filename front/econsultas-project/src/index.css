@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body{
@@ -7,6 +9,7 @@ body{
   font-family:  'Open Sans', Helvetica, sans-serif;
 
 }
+
 
 .nav{
 background-color: brown;
@@ -39,18 +42,56 @@ align-items: center;
 
 
 .color{
-  margin-top: 50px;
   background-color: #447A38 ; 
   
 }
 
 .color-nav{
-  background-color: #447A38 ; 
+  background-color: #447A38 ;
     
 }
 
+.btn-login{
+    background-color: #b8ccb4 !important;
+    border-radius: 20px;
+    margin-right: 100px !important;
+}
+
+.btn-login:hover{
+  background-color: #447A38 !important;
+  border-radius: 20px !important;
+}
+
+.logo{
+  margin-left: 100px;
+}
+
+
+.navbar-nav a{
+  margin: 0 20px;
+  margin-top: 10px;
+}
+
+.navbar-toggler{
+  color: white;
+  border: none!important;
+  outline: none!important;
+}
+
+.nav-link:hover{
+  font-weight: 600px;
+  border-bottom: 1px solid white;
+  margin-bottom: -1px;
+}
+
+.intro .btn{
+  border: 1px solid white;
+  padding: 6px 26px;
+  font-size: 16px;
+}
+
 .teste{
-  color: #fff;
+  color:  #447A38;
 }
 .tam-ico{
 font-size: 20px;
