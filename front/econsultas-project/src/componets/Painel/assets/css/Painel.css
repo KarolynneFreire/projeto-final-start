@@ -1,0 +1,29 @@
+.sidebar-profissional {
+    position: relative;
+    left: 0; 
+    top: 0; 
+    width: 200px; 
+    min-height: 100vh;
+    background-color: #D0DEBF; 
+    padding: 10px;
+  }
+  
+  .sidebar-profissional h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-btn-profissional {
+    display: block;
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #447A38;
+    color: white; 
+    cursor: pointer;
+  }
+  
+  .sidebar-btn-profissional:hover {
+    background-color: #739B65; 
+  }
