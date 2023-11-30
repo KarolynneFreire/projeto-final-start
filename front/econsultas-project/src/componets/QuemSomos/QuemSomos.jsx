@@ -12,7 +12,7 @@ function QuemSomos() {
             <div className="textos-quem-somos">
                 <div className="texto-1-quem-somos">
                     <h3>Quem somos</h3>
-                    <h2>Sobre a(o) SuaSaúde</h2>
+                    <h2>Sobre o e-consultas</h2>
                     <p>Somos um clube de benefícios inovador que fornece planos de assinatura com telemedicina de forma
                         rápida e eficiente para pacientes. Nossa missão é oferecer atendimento médico de qualidade,
                         acessível e conveniente para todos.</p>
