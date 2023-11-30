@@ -1,0 +1,133 @@
+.btn-color1{
+    background-color: #447a3836 !important;
+    color: white;
+  }
+
+
+
+.boody{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #447a3836;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.container{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.container .box{
+    width: calc(33% -10px);
+    background-color: #447A38;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.box .nome{
+    margin: 10px 0 3px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.box .estrela i{
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 5px;
+
+}
+
+.box .imagem{
+    margin: 10px 0;
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.box .imagem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #447A38;
+}
+.box p{
+    text-align: justify;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.btns{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btns button{
+    background-color: #fff;
+    width: 100%;
+    padding: 9px 0px;
+    outline: auto;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: #447A38;
+    transition: all 0.3s linear;
+    
+}
+
+.btns button:first-child{
+    background-color: none;
+    margin-right: 5px;
+}
+
+.btns button:last-child{
+    background-color: #447A38;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.btns button:first-child:hover{
+    background-color: #447A38;
+    color: #fff;    
+}
+
+
+@media (max-width:1045px) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .container .box{
+        width: calc(50% -10px);
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .container .box{
+        width: 100%;
+    }
+}

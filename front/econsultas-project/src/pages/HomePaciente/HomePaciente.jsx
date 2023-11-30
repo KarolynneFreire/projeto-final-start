@@ -20,7 +20,7 @@ const HomePaciente = () => {
             <img src={nutricionista} className="card-img-center-especialidade" alt="Fisioterapeuta" />
           </div>
           <div className="card-button-especialidade">
-            <a href="#" className="button-especialidade">Agendar consulta</a>
+            <a href="/escolha-profissional" className="button-especialidade">Agendar consulta</a>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ const HomePaciente = () => {
             <img src={nutricionista} className="card-img-center-especialidade" alt="Nutricionista" />
           </div>
           <div className="card-button-especialidade">
-            <a href="#" className="button-especialidade">Agendar consulta</a>
+            <a href="/escolha-profissional" className="button-especialidade">Agendar consulta</a>
           </div>
         </div>
 
@@ -46,7 +46,7 @@ const HomePaciente = () => {
             <img src={nutricionista} className="card-img-center-especialidade" alt="Psiquiatra" />
           </div>
           <div className="card-button-especialidade">
-            <a href="#" className="button-especialidade">Agendar consulta</a>
+            <a href="/escolha-profissional" className="button-especialidade">Agendar consulta</a>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ const HomePaciente = () => {
             <img src={nutricionista} className="card-img-center-especialidade" alt="Psicologo(a)" />
           </div>
           <div className="card-button-especialidade">
-            <a href="#" className="button-especialidade">Agendar consulta</a>
+            <a href="/escolha-profissional" className="button-especialidade">Agendar consulta</a>
           </div>
         </div>
       </div>

@@ -38,19 +38,23 @@ const db = mysql.createConnection(
         })
     });
 
-    app.post('/login', (req,res)=>{
-        const sql = "INSERT INTO log_login (`log_nome`,`log_email`,`log_senha`) VALUES (?, ?, ?)";
+    app.post('/login', (req, res) => {
+        const sql = "SELECT * FROM cad_cadastro WHERE cad_email = ? AND cad_senha = ?";
         const values = [
-            req.body.nome,
             req.body.email,
-            req.body.senha  
+            req.body.senha
         ];
-        db.query(sql,values, (err, data)=>{
-            if(err){
+        db.query(sql, values, (err, results) => {
+            if (err) {
                 return res.json(err);
             }
-            return res.json("Sucesso");
-        })
+    
+            if (results.length > 0) {
+                return res.json("Sucesso");
+            } else {
+                return res.json("Credenciais inválidas");
+            }
+        });
     });
 
 app.listen(8081,()=>{

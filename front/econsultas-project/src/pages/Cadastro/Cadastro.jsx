@@ -17,18 +17,20 @@ function Cadastro() {
   })
 
   const handleInput = (event) =>{
-    setValues(prev =>({...prev,[event.target.name]: [event.target.value]}))
+    setValues({...values, [event.target.name]: event.target.value.trim()});
   }
 
   const handleSubmit = (event) =>{
     event.preventDefault();
-    setErrors(Validacao(values));
-    if(errors.nome ==="" && errors.email === "" && errors.senha === ""){
+    const newErrors = Validacao(values);
+    setErrors(newErrors);
+
+    if(Object.values(newErrors).every(error => error === "")){
       axios.post('http://localhost:8081/cadastro', values)
-      .then(res => {
-        navigate ('/login');
-      })
-      .catch(err => console.log(err));
+        .then(res => {
+          navigate('/login');
+        })
+        .catch(err => console.log(err));
     }
   }
 
