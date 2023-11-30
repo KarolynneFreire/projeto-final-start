@@ -1,4 +1,4 @@
-import seta from "../Faq/assets/img/seta.png"
+import seta from "../Faq/assets/img/seta.png" 
 import "../Faq/assets/css/styles.css"
 
 function Faq() {
