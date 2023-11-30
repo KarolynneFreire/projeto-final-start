@@ -1,11 +1,13 @@
+import { useUser } from '../../contexts/UserContext'
 import "../HomePaciente/assets/css/HomePaciente.css"
 import nutricionista from './assets/img/nutricionista.png'
 
 const HomePaciente = () => {
+  const { user } = useUser()
   return (
     <div className="container-especialidades">
       <div className="saudacao">
-        <h5>Olá, Carlos</h5>
+      <h5>Olá, {user ? user.nome : 'Usuário'}</h5>
         <p>Selecione a especialidade do atendimento que você deseja.</p>
       </div>
       

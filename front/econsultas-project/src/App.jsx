@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { UserProvider } from './contexts/UserContext'
 import Navbar from "./componets/NavBar/NavBar"
 import Cadastro from './pages/Cadastro/Cadastro'
 import Cliente from './pages/Cliente'
@@ -13,6 +14,7 @@ import CardsProfissionais from './pages/CardsProfissionais/Card'
 
 function App() {
   return (
+    <UserProvider>
     <>
     <Navbar/>
    
@@ -30,6 +32,7 @@ function App() {
     </Routes>
     <Footer/>
     </>
+    </UserProvider>
   )
 }
 
