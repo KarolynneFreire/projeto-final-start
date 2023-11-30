@@ -11,7 +11,7 @@ function Faq() {
 
                 <h3>FAQ</h3>
                 <h2>Perguntas e Respostas</h2>
-                <p>Confira algumas das perguntas mais frequentes sobre a MedWeb e obtenha
+                <p>Confira algumas das perguntas mais frequentes sobre o E-consultas e obtenha
                     respostas rápidas para suas dúvidas. Estamos sempre prontos para ajudá-lo
                     a entender melhor nossa plataforma e os serviços oferecidos.</p>
 

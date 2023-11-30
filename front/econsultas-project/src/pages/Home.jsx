@@ -1,5 +1,5 @@
 
-import Beneficios from '../componets/Beneficios/beneficios'
+import Beneficios from '../componets/Beneficios/Beneficios'
 import Carrossel from '../componets/Carrossel/Carrossel'
 import ComoFunciona from '../componets/ComoFunciona/ComoFunciona'
 import Depoimento from '../componets/Depoimento/Depoimento'
