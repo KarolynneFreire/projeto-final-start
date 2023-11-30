@@ -11,6 +11,7 @@ import Footer from "./componets/Footer/Footer"
 import Satisfacao from './pages/Satisfacao/Satisfacao';
 import Sobre from './pages/Sobre'
 import CardsProfissionais from './pages/CardsProfissionais/Card'
+import AgendamentoConsulta from './pages/AgendamentoConsulta/AgendamentoConsulta'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Route path="/home-paciente" element={<HomePaciente />}></Route>
       <Route path="/home-profissional" element={<HomeProfissional />}></Route>
       <Route path="/escolha-profissional" element={<CardsProfissionais />}></Route>
+      <Route path="/agendamento-consulta" element={<AgendamentoConsulta />}></Route>
       
     </Routes>
     <Footer/>
