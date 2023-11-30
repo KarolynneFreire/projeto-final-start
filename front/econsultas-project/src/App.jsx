@@ -1,14 +1,14 @@
-import {Routes, Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Navbar from "./componets/NavBar/NavBar"
 import Cadastro from './pages/Cadastro/Cadastro'
 import Cliente from './pages/Cliente'
 import Home from './pages/Home'
 import Login from './pages/Login/Login'
+import HomePaciente from './pages/HomePaciente/HomePaciente'
+import HomeProfissional from './pages/HomeProfissional/HomeProfissional'
 import Footer from "./componets/Footer/Footer"
 import Satisfacao from './pages/Satisfacao/Satisfacao';
 import Sobre from './pages/Sobre'
-
-
 
 function App() {
   return (
@@ -22,6 +22,8 @@ function App() {
       <Route path= '/cliente' element = {<Cliente/>}></Route>
       <Route path= '/sobre' element = {<Sobre/>}></Route>
       <Route path= '/satisfacao' element = {<Satisfacao/>}></Route>
+      <Route path="/home-paciente" element={<HomePaciente />}></Route>
+      <Route path="/home-profissional" element={<HomeProfissional />}></Route>
     </Routes>
     <Footer/>
     </>

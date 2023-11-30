@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.containerProfissional {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+
+
+.container-especialidades {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.saudacao {
+  margin-left: 30px;
+  margin-top: -25px;
+}
+
+.saudacao h1 {
+  font-size: 32px;
+}
+
+/* calendario */
+
+.calendario-container {
+  margin-left: 30px;
+}
+
+/* agenda semanal */
+
+.agenda-semanal {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.agenda-semanal h2 {
+  font-size: 24px;
+}
+
+.dia-atual {
+  border: 1px solid #447A38;
+  width: 50%;
+  padding: 10px 8px;
+  color: #447A38;
+}
+
+.dia-seguinte {
+  margin-top: 30px;
+  border: 1px solid #447A38;
+  width: 50%;
+  padding: 10px 8px;
+  color: #447A38;
+}
+
+.semana-atual {
+  margin-top: 30px;
+  border: 1px solid #447A38;
+  width: 50%;
+  padding: 10px 8px;
+  color: #447A38;
+  margin-bottom: 30px;
+}
+
+.color {
+  margin-top: 0;
+}

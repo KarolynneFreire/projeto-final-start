@@ -1,0 +1,82 @@
+body {
+    background-color: #F2F9E6;
+}
+
+.cards-especialidade{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.card-especialidade {
+    background-color: #D0DEBF;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+.card-img-especialidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card-img-especialidade img {
+    width: 120px;
+}
+
+
+.card-body-especialidade p {
+    height: 80px;
+    font-size: 14px;
+    color: #447A38;
+}
+
+.card-body-especialidade h5 {
+    font-weight: 700;
+    color: #447A38;
+}
+
+.card-text-especialidade {
+    margin: 0;
+}
+
+.card-button-especialidade {
+    margin-top: 16px;   
+    margin-bottom: 8px;
+}
+
+.button-especialidade{
+    background-color: #447A38;
+    color: #D0DEBF;
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .saudacao {
+        margin-left: 6%;
+        padding-top: 3%;
+        max-width: 100%;
+        color: #447A38;
+  }
+
+  .container-especialidades {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+
+
+
