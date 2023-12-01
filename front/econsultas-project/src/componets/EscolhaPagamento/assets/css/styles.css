@@ -6,8 +6,13 @@
     width: 60%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 30px;
-    padding-top: 70px;
+    margin-top: 5px;
+    padding-top: 3px;
+}
+
+.titulo-escolha{
+    font-size: 20px;
+    color: #447A38;
 }
 
 .escolha-opcao {
@@ -18,11 +23,17 @@
     margin: 15px auto;
     justify-content: space-around;
     border-radius: 10px;
+    border-color: #447A38;
+}
+
+.escolha-opcao p {
+    margin-top: 10px;
 }
 
 .escolha-opcao img{
-    width: 48px;
-    height: 48px;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
 }
 
 .botao-forma-pagamento {

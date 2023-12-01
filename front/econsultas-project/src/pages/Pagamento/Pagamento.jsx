@@ -1,17 +1,29 @@
-import React from 'react'
 import EscolhaPagamento from '../../componets/EscolhaPagamento/EscolhaPagamento';
 import PagamentoForma from '../../componets/PagamentoForma/PagamentoForma';
 import RevisaoPagamento from '../../componets/RevisaoPagamento/RevisaoPagamento';
 import { useForm } from "../../hooks/useForm"
-import Steps from "../../componets/Steps/Steps"
 import Progress from "../../componets/Progress/Progress"
+import { useState } from 'react';
+
+
+const formTemplates = {
+    verification: "",
+};
 
 export default function Pagamento() {
 
+    const [data, setData] = useState(formTemplates);  
+
+    const updateFielHandler = (key, value)=>{
+      setData((prev) =>{
+              return{...prev, [key]: value};
+           } );
+  };
+
     const pagComponets = [
-        <EscolhaPagamento key="id-escolha"/>,
-        <PagamentoForma key="id-forma"/>,
-        <RevisaoPagamento key="id-revisao"/>,
+        <EscolhaPagamento key="id-escolha" data ={data} updateFielHandler = {updateFielHandler}/>,
+        <PagamentoForma key="id-forma" data = {data} updateFielHandler = {updateFielHandler}/>,
+        <RevisaoPagamento key="id-revisao" data = {data}/>,
     ];
     const {curretStep, curretComponent, changeStep, isLastStep, isFirstStep} = useForm(pagComponets);
   return (
