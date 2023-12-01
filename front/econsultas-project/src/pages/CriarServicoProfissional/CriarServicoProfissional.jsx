@@ -1,9 +1,10 @@
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
+import './assets/css/CriarServicoProfissional.css'
 
-import React, { useState } from 'react';
-import './assets/css/CriarServico.css'
-
-const CriarServico = () => {
+const CriarServicoProfissional = () => {
     const [selecionados, setSelecionados] = useState({});
+    const navigate = useNavigate()
 
     const toggleTimeSlot = (dia, hora) => {
         const chave = `${dia}-${hora}`;
@@ -11,6 +12,12 @@ const CriarServico = () => {
             ...prevSelecionados,
             [chave]: !prevSelecionados[chave]
         }));
+    };
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        //lembrar de alterar a rotaa qui, dessa forma estou mandando pra home
+        navigate('/');
     };
 
     const horarios = [...Array(24).keys()].map(hour => `${hour.toString().padStart(2, '0')}:00`);
@@ -21,7 +28,7 @@ const CriarServico = () => {
             <tr key={hora}>
                 <td>{hora}</td>
                 {diasDaSemana.map(dia => {
-                    const chave = `${dia}-${hora}`;
+                    const chave = `${dia}-${hora}`
                     return (
                         <td 
                             key={dia} 
@@ -36,7 +43,7 @@ const CriarServico = () => {
 
     return (
         <div className="pagina-criar-servico">
-            <div className="formulario-criar-servico">
+            <form className="formulario-criar-servico" onSubmit={handleSubmit}>                
                 <h2>Criar novo serviço</h2>
                 <h3>Título do Servico</h3>
                 <input type="text" placeholder="Dê um título atraente ao seu serviço" />
@@ -65,9 +72,9 @@ const CriarServico = () => {
                 </table>
 
                 <button type="submit">Criar serviço</button>
-            </div>
+            </form>
         </div>
-    );
-};
+    )
+}
 
-export default CriarServico;
+export default CriarServicoProfissional

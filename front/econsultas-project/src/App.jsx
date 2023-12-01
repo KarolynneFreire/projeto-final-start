@@ -13,7 +13,7 @@ import Sobre from './pages/Sobre'
 import CardsProfissionais from './pages/CardsProfissionais/Card'
 import AgendamentoConsulta from './pages/AgendamentoConsulta/AgendamentoConsulta'
 import CompartilharArquivo from './pages/CompartilharArquivo/CompartilharArquivo'
-import CriarServico from './pages/CriarServico/CriarServico'
+import CriarServicoProfissional from './pages/CriarServicoProfissional/CriarServicoProfissional'
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
       <Route path="/escolha-profissional" element={<CardsProfissionais />}></Route>
       <Route path="/agendamento-consulta" element={<AgendamentoConsulta />}></Route>
       <Route path="/compartilhar-arquivo" element={<CompartilharArquivo />}></Route>
-      <Route path="/criar-servico" element={<CriarServico />}></Route>
+      <Route path="/criar-servico-profissional" element={<CriarServicoProfissional />}></Route>
       
     </Routes>
     <Footer/>
