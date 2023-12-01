@@ -15,6 +15,7 @@ import AgendamentoConsulta from './pages/AgendamentoConsulta/AgendamentoConsulta
 import CompartilharArquivo from './pages/CompartilharArquivo/CompartilharArquivo'
 import CriarServicoProfissional from './pages/CriarServicoProfissional/CriarServicoProfissional'
 import MeusServicos from './pages/MeusServicos/MeusServicos'
+import Rendimentos from './pages/Rendimentos/Rendimentos'
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <Route path="/compartilhar-arquivo" element={<CompartilharArquivo />}></Route>
       <Route path="/criar-servico-profissional" element={<CriarServicoProfissional />}></Route>
       <Route path="/meus-servicos" element={<MeusServicos />}></Route>
+      <Route path="/meus-rendimentos" element={<Rendimentos />}></Route>
       
     </Routes>
     <Footer/>
