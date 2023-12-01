@@ -9,7 +9,7 @@ import HomeProfissional from './pages/HomeProfissional/HomeProfissional'
 import Footer from "./componets/Footer/Footer"
 import Satisfacao from './pages/Satisfacao/Satisfacao';
 import Sobre from './pages/Sobre'
-import HomeEscolhaProfissional from './pages/HomeEscolhaProfissional/Card'
+import HomeEscolhaProfissional from './pages/HomeEscolhaProfissional/CardHomeEscolhaProfissional'
 
 function App() {
   return (
