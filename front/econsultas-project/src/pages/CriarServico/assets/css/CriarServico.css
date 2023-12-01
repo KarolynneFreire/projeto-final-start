@@ -1,10 +1,10 @@
 .pagina-criar-servico {
-    background-color: #F2F9E6; /* Branco principal */
+    background-color: #F2F9E6;
     padding: 20px;
   }
   
   .formulario-criar-servico {
-    background-color: #FFFFFF; /* Branco */
+    background-color: #FFFFFF;
     padding: 20px;
     border-radius: 8px;
     max-width: 1000px;
@@ -12,12 +12,12 @@
   }
   
   .formulario-criar-servico h2 {
-    color: #447A38; /* Verde principal */
+    color: #447A38;
     margin-bottom: 16px;
   }
 
   .formulario-criar-servico h3 {
-    color: #739B65; /* Verde principal */
+    color: #739B65;
     margin-bottom: -10px;
     font-size: 18px;
   }
@@ -28,7 +28,7 @@
     padding: 10px;
     margin: 10px 0;
     border-radius: 4px;
-    border: 1px solid #739B65; /* Verde complementar */
+    border: 1px solid #739B65;
   }
   
   .formulario-criar-servico button {
@@ -36,19 +36,15 @@
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #447A38; /* Verde principal */
+    background-color: #447A38;
     color: white;
     cursor: pointer;
   }
   
   .formulario-criar-servico button:hover {
-    background-color: #739B65; /* Verde complementar */
+    background-color: #739B65;
   }
   
-  /* Aqui você adicionaria estilos adicionais para a tabela de disponibilidade e os controles de seleção de intervalo */
-  /* Estilos existentes */
-
-/* Estilos para a tabela de disponibilidade */
 .tabela-disponibilidade {
     width: 100%;
     margin-top: 20px;
@@ -57,28 +53,26 @@
   
   .tabela-disponibilidade th,
   .tabela-disponibilidade td {
-    border: 1px solid #D0DEBF; /* Verde claro complementar */
+    border: 1px solid #D0DEBF;
     text-align: center;
     padding: 5px;
   }
   
   .tabela-disponibilidade th {
-    background-color: #447A38; /* Verde principal */
+    background-color: #447A38;
     color: white;
   }
   
   .celula-disponibilidade {
-    background-color: #F2F9E6; /* Branco principal */
+    background-color: #F2F9E6;
     cursor: pointer;
   }
   
   .celula-disponibilidade:hover {
-    background-color: #D3E157; /* Verde complementar */
+    background-color: #D3E157;
   }
-  
-  /* Continue com o resto do CSS existente */
 
   .selecionado {
-    background-color: #739B65; /* Verde complementar para indicar seleção */
+    background-color: #739B65;
   }
   

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './assets/css/CriarServico.css'
 
 const CriarServico = () => {
-    const [selecionados, setSelecionados] = useState({}); // Armazena os horários selecionados
+    const [selecionados, setSelecionados] = useState({});
 
     const toggleTimeSlot = (dia, hora) => {
         const chave = `${dia}-${hora}`;
@@ -63,8 +63,6 @@ const CriarServico = () => {
                         {renderTimeSlots()}
                     </tbody>
                 </table>
-
-                {/* Aqui você adicionaria os controles para seleção de intervalo entre consultas */}
 
                 <button type="submit">Criar serviço</button>
             </div>
