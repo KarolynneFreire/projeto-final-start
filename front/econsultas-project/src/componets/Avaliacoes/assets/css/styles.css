@@ -1,0 +1,55 @@
+h2{
+    color: #447A38;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+color: #447A38;  
+}
+
+p{
+    color: #447A38;
+    
+}
+
+.star-avaliação p{
+    display: flex;
+    flex-direction: column;
+    margin: auto 5px;
+}
+
+.star-avaliação{
+    
+ display: flex;
+ margin: auto 15px;
+ margin-top: 8px;    
+}
+
+.star-avaliação img{
+width: 2%;
+height: 2%;
+}
+
+.user-avaliação{
+    display: flex;
+    margin: auto;
+}
+
+.user-avaliação img{
+    display: flex;
+    margin: auto 15px;
+}
+
+
+.avaliação-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-avaliações{
+    border: 2px solid #447A38;
+    width: 900px;
+    height: 120px;
+    margin: 30px 0;
+    
+}
