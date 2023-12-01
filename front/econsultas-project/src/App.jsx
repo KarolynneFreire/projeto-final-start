@@ -4,8 +4,9 @@ import Cadastro from './pages/Cadastro/Cadastro'
 import Cliente from './pages/Cliente'
 import Home from './pages/Home'
 import Login from './pages/Login/Login'
+import SobreNos from './pages/Sobre'
 import Footer from "./componets/Footer/Footer"
-import Sobre from './pages/Sobre'
+import Sobre from '../src/pages/Sobre'
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Route path= '/cadastro' element = {<Cadastro/>}></Route>
       <Route path= '/cliente' element = {<Cliente/>}></Route>
       <Route path= '/sobre' element = {<Sobre/>}></Route>
+     
     </Routes>
     <Footer/>
     </>

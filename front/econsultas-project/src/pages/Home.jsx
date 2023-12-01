@@ -6,6 +6,7 @@ import Depoimento from '../componets/Depoimento/Depoimento'
 import Faq from '../componets/Faq/Faq'
 import QuemSomos from '../componets/QuemSomos/QuemSomos'
 import CardsProfissionais from '../componets/CardsProfissionais/Card'
+import SobreNos from '../componets/SobreNos/'
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <QuemSomos></QuemSomos>
       <CardsProfissionais></CardsProfissionais>
       <Beneficios></Beneficios>
+      <SobreNos></SobreNos>
       <Faq></Faq> 
     </div>
   )
