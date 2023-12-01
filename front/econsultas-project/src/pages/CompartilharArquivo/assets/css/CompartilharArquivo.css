@@ -1,0 +1,79 @@
+.conteudo-centralizado {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.texto-informativo {
+  text-align: left;
+  margin-top: 16px;
+  margin-bottom: 5px;
+}
+
+.formulario-compartilhamento {
+  background-color: #F2F9E6;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.opcoes-compartilhamento {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.opcoes-compartilhamento label {
+  cursor: pointer;
+}
+
+.caixa-upload {
+  border: 2px dashed #447A38;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.botao-selecionar {
+  background-color: #739B65;
+  color: #F2F9E6;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  display: inline-block;
+}
+
+.area-botoes {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botao-pular, .botao-salvar {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.botao-pular {
+  background-color: #739B65;
+  color: #F2F9E6;
+}
+
+.botao-salvar {
+  background-color: #447A38;
+  color: #F2F9E6;
+}
+
+.botao-selecionar:hover,
+.botao-pular:hover,
+.botao-salvar:hover {
+  opacity: 0.85;
+}
+
+#selecao-arquivo {
+  display: none;
+}
