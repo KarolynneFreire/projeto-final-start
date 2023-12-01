@@ -1,0 +1,36 @@
+.container-escolha-pagamento {
+    width: 100%;
+}
+
+.container-selecionar-pagamento {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 70px;
+}
+
+.escolha-opcao {
+    border: 2px solid #696969;
+    display: flex;
+    width: 240px;
+    text-align: center;
+    margin: 15px auto;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.escolha-opcao img{
+    width: 48px;
+    height: 48px;
+}
+
+.botao-forma-pagamento {
+    background-color: #447A38;
+    width: 130px;
+    height: 35px;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 16px;
+    margin: 60px auto;
+}

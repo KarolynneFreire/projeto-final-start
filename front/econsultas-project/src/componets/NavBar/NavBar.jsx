@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import '../NavBar/assets/css/styles.css'
 
 export default function Navbar() {
   return (
@@ -18,9 +19,10 @@ export default function Navbar() {
         <Link to='/pagamento' className="nav-link text-light link">Pagamento</Link>
       </div>
     </div>
-    <div className="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavAltMarkup">
+    <div className="collapse navbar-collapse max auto mov-btn" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <Link to='/login' className="nav-link btn-login text-light">Login/Cadastro </Link>
+        <Link to='/cadastro' className="nav-link btn-login text-light">Cadastro </Link>
+        <Link to='/login' className="nav-link btn-login text-light">Login </Link>
       </div>
     </div>
   </div>
