@@ -104,3 +104,127 @@ a{
     align-items: center;
     justify-content: center;
 }
+
+.formas-pagamento {
+    width: 100%;
+    height: 600px;
+}
+
+.pagamento-com-cartao {
+    border: 2px solid #4F4F4F;
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.alterar-forma-e-cartao {
+    display: flex;
+    margin: auto auto 30px auto;
+    width: 100%;
+    height: 60px;
+}
+
+.alterar-forma-credito {
+    margin: auto 5px;
+}
+
+.pagamento-credito {
+    width: 45%;
+    display: flex;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.selecionar-opcoes-credito {
+    width: 100%;
+    height: 55px;
+    display: flex;
+}
+
+.texto-escolha-forma {
+    margin: auto 5px;
+}
+
+.input-escolha-forma {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.opcoes-forma-cartao{
+    border: 2px solid #4F4F4F;
+    margin: 5px 40px 5px 0; 
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.opcoes-forma-cartao p {
+    padding: 0 0 0 10px;
+}
+
+.checkbox-selecionar-forma {
+    margin: 9px auto 0 auto;
+}
+
+.container-cartoes-pagamento {
+    background-color: #D9D9D9;
+    width: 80%;
+    height: 20rem;
+    margin: 35px auto 0 auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+.container-cartoes-cadastrados {
+    width: 45%;
+    height: 90%;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartoes-cadastrados {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+.cartoes-cadastrados img {
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+}
+
+.confirmar-qtd-parcelas {
+    width: 45%;
+    height: 10rem;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.selecionar-parcelas-pagamento {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.botao-pagamento-parcelas {
+    background-color: #447A38;
+    width: 10rem;
+    height: 2rem;
+    margin: auto;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
