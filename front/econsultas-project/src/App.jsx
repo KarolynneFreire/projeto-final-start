@@ -10,12 +10,12 @@ import HomeProfissional from './pages/HomeProfissional/HomeProfissional';
 import Footer from './componets/Footer/Footer';
 import Satisfacao from './pages/Satisfacao/Satisfacao';
 import Sobre from './pages/Sobre';
-// import CardsProfissionais from './pages/CardsProfissionais/Card';
 import AgendamentoConsulta from './pages/AgendamentoConsulta/AgendamentoConsulta';
 import CompartilharArquivo from './pages/CompartilharArquivo/CompartilharArquivo';
 import CriarServicoProfissional from './pages/CriarServicoProfissional/CriarServicoProfissional';
 import MeusServicos from './pages/MeusServicos/MeusServicos';
 import Rendimentos from './pages/Rendimentos/Rendimentos';
+import Pagamento from './pages/Pagamento/Pagamento';
 
 function App() {
   return (
