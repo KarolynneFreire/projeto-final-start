@@ -9,8 +9,6 @@ body {
   flex: 1;
 }
 
-
-
 .container-especialidades {
   display: flex;
   flex-direction: column;
