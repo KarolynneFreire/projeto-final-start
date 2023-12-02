@@ -1,0 +1,84 @@
+.agendamento-consulta {
+    background-color: #D0DEBF;
+    color: #447A38;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1280px;
+    margin: 30px auto;
+  }
+  
+  .agendamento-consulta header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #F2F9E6;
+
+  }
+  
+  .agendamento-consulta header p {
+    margin: 10px 0 20px;
+    color: #F2F9E6;
+  }
+  
+  .dados-profisisonal h2 {
+    margin-top: 16px;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .dados-profisisonal p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+
+ .selecionar-horario{
+  margin-top: 30px;
+ }
+
+ .selecionar-data h3,
+ .selecionar-horario h3{
+  font-size: 1.1em;
+ }
+
+  
+  .selecionar-data button,
+  .selecionar-horario button {
+    padding: 10px 15px;
+    margin: 5px;
+    background: none;
+    border: 1px solid #447A38;
+
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selecionar-data button.active,
+  .selecionar-horario button.active,
+  .selecionar-data button:hover,
+  .selecionar-horario button:hover {
+    background-color: #447A38;
+  }
+
+.botao-acao {
+    text-align: right;
+    margin-top: 20px;
+
+  }
+  
+  .botao-salveContinue {
+    padding: 10px 20px;
+    background-color: #447A38;
+    color: #F2F9E6;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-salveContinue:hover {
+    background-color: #739B65;
+  }
+  
+  
