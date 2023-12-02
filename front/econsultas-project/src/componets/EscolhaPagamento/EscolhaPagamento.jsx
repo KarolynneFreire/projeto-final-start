@@ -16,15 +16,15 @@ const EscolhaPagamento = ({data, updateFielHandler}) => {
           <div className="escolha-opcao">
             <img src={cartao} alt="ícone de cartao" />
             <p>Cartão de Crédito</p>
-            <input type="radio" value="cartao-credito" name="verification" required 
-          checked={data.verification === "cartao-credito"} onChange={ (e) => updateFielHandler ( "verification", e.target.value)}/>
+            <input type="radio" value="Cartão de Crédito" name="verification" required 
+          checked={data.verification === "Cartão de Crédito"} onChange={ (e) => updateFielHandler ( "verification", e.target.value)}/>
           </div>
 
           <div className="escolha-opcao">
             <img src={cartao} alt="ícone de cartao" />
             <p>Cartão de Debito</p>
-            <input type="radio" value="cartao-debito" name="verification" required 
-          checked={data.verification === "cartao-debito"} onChange={ (e) => updateFielHandler ( "verification", e.target.value)}/>
+            <input type="radio" value="Cartão de Debito" name="verification" required 
+          checked={data.verification === "Cartão de Debito"} onChange={ (e) => updateFielHandler ( "verification", e.target.value)}/>
           </div>
           
 

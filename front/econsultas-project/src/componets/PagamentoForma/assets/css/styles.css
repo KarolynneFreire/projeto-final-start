@@ -1,38 +1,9 @@
-.container-forma-pix {
-    width: 100%;
-    height: 100%;
-}
-
-.voltar-e-texto {
-    display: flex;
-    width: 70%;
-    margin: auto;
-}
-
-.voltar-escolha-pagamento{
-    margin: auto 5px;
-}
-
-.titulo-pix {
-    width: 70%;
-    display: flex;
-    margin: auto;
-}
-
-.titulo-pix h2{
-    font-size: 20px;
+.titulo-pagamento{
+    font-size:  20px;
     color: #447A38;
 }
 
-.titulo-pix img {
-    width: 20px;
-    height: 20px;
-    margin: auto 10px;
-}
 
-a{
-    text-decoration: none;
-}
 
 .instruções-pagamento{
     display: flex;
@@ -105,13 +76,10 @@ a{
     justify-content: center;
 }
 
-.formas-pagamento {
-    width: 100%;
-    height: 600px;
-}
+
 
 .pagamento-com-cartao {
-    border: 2px solid #4F4F4F;
+   
     width: 70%;
     height: 90%;
     margin: auto;
@@ -120,7 +88,6 @@ a{
 
 .alterar-forma-e-cartao {
     display: flex;
-    margin: auto auto 30px auto;
     width: 100%;
     height: 60px;
 }
@@ -166,7 +133,7 @@ a {
 }
 
 .opcoes-forma-cartao p {
-    padding: 0 0 0 10px;
+    padding: 0 0 0 px;
 }
 
 .checkbox-selecionar-forma {
@@ -174,28 +141,29 @@ a {
 }
 
 .container-cartoes-pagamento {
-    background-color: #D9D9D9;
-    width: 80%;
-    height: 20rem;
-    margin: 35px auto 0 auto;
+   margin-top: 50px;
     border-radius: 10px;
     display: flex;
 }
 
 .container-cartoes-cadastrados {
-    width: 45%;
-    height: 90%;
-    margin: auto;
-    justify-content: space-around;
+    width: 200%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;  
+
 }
 
 .cartoes-cadastrados {
     display: flex;
     border-radius: 10px;
     justify-content: space-around;
-    border: 2px solid black;
+    border: 2px solid  #447A38;
+    width: 100px;
+    margin: -20px 10px 10px 0px;
+   
 }
 
 .cartoes-cadastrados img {

@@ -11,18 +11,22 @@ const RevisaoPagamento =  ({data}) => {
         <span> Tipo da Compra: </span>
         {data.verification}
       </p>
-
       <p className="review-data">
         <span> Número do Cartão: </span>
-        {/* {emojiData[data.review]} */}
+        {data.numero}
+      </p>
+      <p className="review-data">
+        <span> Tipo do Cartão: </span>
+        {data.cartao}
       </p>
       <p className="review-data">
         <span>Valor: </span>
         <p>R$ 100,0</p>
-        {/* {data.comment} */}
+        
       </p>
     </div>
   )
 }
+
 
 export default RevisaoPagamento;

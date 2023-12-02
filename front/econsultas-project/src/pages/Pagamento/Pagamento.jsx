@@ -7,7 +7,11 @@ import { useState } from 'react';
 
 
 const formTemplates = {
+    nome: "",
+    numero: "",
+    cvc: "",
     verification: "",
+    cartao: "",
 };
 
 export default function Pagamento() {
