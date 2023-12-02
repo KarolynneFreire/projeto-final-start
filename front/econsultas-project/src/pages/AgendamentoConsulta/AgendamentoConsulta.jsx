@@ -20,8 +20,7 @@ const AgendamentoConsulta = () => {
         console.log("Data selecionada:", selectedDate);
         console.log("Hora selecionada:", selectedTime);
         
-        // lembrar de alterar o caminho para a proxima pa´gina aqui
-        // navigate('#');
+     navigate('/compartilhar-arquivo');
     };
 
 
