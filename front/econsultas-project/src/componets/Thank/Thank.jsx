@@ -18,7 +18,7 @@ const Thank =  ({data}) => {
     <div className="thack-container">
       <h2>Falta só um pouquinho ... </h2>
       <p > A sua opnião é muito importante,em breve você receberá um desconto na próxima consulta!</p>
-      <p>Para concluir aperto o botão abaixo: </p>
+      <p>Para concluir aperte o botão abaixo: </p>
 
       <h3> Aqui está um resumo da sua avalição {data.name}: </h3>
       <p className="review-data">

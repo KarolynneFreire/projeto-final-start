@@ -44,8 +44,10 @@ function Cadastro() {
         <div className='feature-image m-3'>
          <img src={cadastro} alt="login" className='img-fluid img-form-cadastro' />
         </div>
+
         <p className='fs-2 text-black'>Olá, realize seu cadastro!</p>
         <small className='text-wrap text-center text-black' > junte-se a nós nessa experiência </small>
+
       </div>
 
       <div className='col-md-6 right-box card-form'>
@@ -74,9 +76,9 @@ function Cadastro() {
                 {errors.senha && <span className='text-danger'>{errors.senha}</span> }
                 </div>
                 <button type='submit' className='btn btn-lg btn-success w-100 fs-6'>Confirmar</button>
-                <div className='form-check mb-3'>
+                <div className='form-check mb-3 check-cadastro'>
                     <input type="checkbox" className='form-check-input' name="" id="formCheck" />
-                    <label htmlFor="formCheck" className='form-check-label text-secondary'><small className='text-black'>Você concorda com nossos termos e politicas</small></label>
+                    <label htmlFor="formCheck" className='form-check-label text-secondary'><small className='text-black'>Você concorda com nossos termos e políticas</small></label>
                   </div>
                 <Link to="/login" className='btn btn-default border w-100 fs-6 text-decoration-none text-black'>Login</Link>
             </form>

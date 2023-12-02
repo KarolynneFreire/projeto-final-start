@@ -1,0 +1,198 @@
+.titulo-pagamento{
+    font-size:  20px;
+    color: #447A38;
+}
+
+
+
+.instruções-pagamento{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.instruções-pagamento img{
+    display: flex;
+    margin: 40px auto;
+    width: 100px;
+    height: 100px;
+}
+
+.instruções-pagamento h4 {
+    margin-left: 25px;
+}
+
+.instruções-pix-qrcode {
+    width: 45%;
+    padding-top: 40px;
+}
+
+.intruções-pix-copia-e-cola {
+    width: 45%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.borda-pix-copia-e-cola {
+    border: 2px solid #739B65;
+    border-radius: 10px;
+}
+
+#titulo-pix-copia-e-cola{
+    text-align: center;
+    margin-right: 25px;
+}
+
+#codigo-copia-e-cola {
+    text-align: center;
+}
+
+.botao-copiar-pix {
+    background-color: #447A38;
+    color: #ffffff;
+    display: flex;
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 10px auto;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.botao-copiar-pix img {
+    width: 20px;
+    height: 20px;
+}
+
+.botao-confirmar-pagamento-pix {
+    background-color: #447A38;
+    color: #ffffff;
+    display: flex;
+    width: 170px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.pagamento-com-cartao {
+   
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.alterar-forma-e-cartao {
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.alterar-forma-credito {
+    margin: auto 5px;
+}
+
+.pagamento-credito {
+    width: 45%;
+    display: flex;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.selecionar-opcoes-credito {
+    width: 100%;
+    height: 55px;
+    display: flex;
+}
+
+.texto-escolha-forma {
+    margin: auto 5px;
+}
+
+.input-escolha-forma {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.opcoes-forma-cartao{
+    border: 2px solid #4F4F4F;
+    margin: 5px 40px 5px 0; 
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.opcoes-forma-cartao p {
+    padding: 0 0 0 px;
+}
+
+.checkbox-selecionar-forma {
+    margin: 9px auto 0 auto;
+}
+
+.container-cartoes-pagamento {
+   margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.container-cartoes-cadastrados {
+    width: 200%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;  
+
+}
+
+.cartoes-cadastrados {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    border: 2px solid  #447A38;
+    width: 100px;
+    margin: -20px 10px 10px 0px;
+   
+}
+
+.cartoes-cadastrados img {
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+}
+
+.confirmar-qtd-parcelas {
+    width: 45%;
+    height: 10rem;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.selecionar-parcelas-pagamento {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.botao-pagamento-parcelas {
+    background-color: #447A38;
+    width: 10rem;
+    height: 2rem;
+    margin: auto;
+    color: #FFFFFF;
+    border-radius: 20px;
+}

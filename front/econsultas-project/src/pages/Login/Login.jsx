@@ -49,8 +49,10 @@ const handleSubmit = (event) => {
               <img src={login} alt="login" className='img-fluid img-form' />
             </div>
             <p className='text-white fs-2'>Seja Cliente</p>
+
             <small className='text-white text-wrap text-center' > junte-se a nós nessa experiência </small>
-          </div>
+
+
 
           <div className='col-md-6 right-box'>
             <div className='row align-items-center '>
@@ -72,10 +74,6 @@ const handleSubmit = (event) => {
                     {errors.senha && <span className='text-danger'>{errors.senha}</span>}
                   </div>
                   <div className='input-group mb-5 d-flex justify-content-between'>
-                    <div className='form-check'>
-                      <input type="checkbox" className='form-check-input' name="" id="formCheck" />
-                      <label htmlFor="formCheck" className='form-check-label text-secondary'><small>Lembre-me</small></label>
-                    </div>
                     <div className='forgot'>
                       <small><a href="#">Esqueceu a senha? </a></small>
                     </div>
@@ -87,7 +85,6 @@ const handleSubmit = (event) => {
                     <button type='submit' className='btn btn-lg btn-light w-100  fs-6'> <img src={google} alt="marca da google" className='google m-2' />
                       <small>Faça login pelo Google</small></button>
                   </div>
-
                   <div className='row'>
                     <small>Não tem conta? <Link to="/cadastro">Cadastre-se</Link> </small>
                   </div>
@@ -100,7 +97,7 @@ const handleSubmit = (event) => {
 
           </div>
         </div>
-
+        </div>
       </div>
 
 

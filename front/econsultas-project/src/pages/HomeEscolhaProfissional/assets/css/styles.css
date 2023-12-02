@@ -1,0 +1,137 @@
+.ola h2 {
+    font-size: 1.2rem;
+
+
+
+    color: #739B65;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ola h3 {
+    font-size: 1.2rem;
+
+
+    color: #739B65;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fotocard{
+   
+    
+
+}
+
+.paginatoda {
+    padding: 30px 30px;
+    background-color: #D0DEBF;
+}
+
+.todososcards {
+    
+    display: flex;
+    Flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    Width: 100%;
+    
+    margin: auto;
+}
+
+
+
+.card-button{
+   
+
+    width: 10rem;
+    height: 2rem;
+    border-radius: 16px;
+    border-color: #D0DEBF;
+    background-color: #D0DEBF;
+    transition: background-color 0.3s, width 0.3s, height 0.3s;
+
+
+
+    
+    
+}
+.card-button:hover{
+
+    background-color: #fff;
+    color: #447A38;
+    width: 15rem;
+    height: 3rem;
+}
+
+.card-item {
+    
+    display: flex;
+    flex-direction: column;
+
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    width: 363px;
+    height: 250px;
+    flex-shrink: 0; 
+    border-radius: 16px;
+    background: #447A38;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 10px;
+    margin: 20px;
+    
+
+}
+
+.card-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cardtexto{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #447A38;
+}
+
+
+.card-item h2 {
+    width: 191.898px;
+    height: 18.303px;
+    flex-shrink: 0;
+
+    color: #F2F9E6;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+.card-item p {
+    width: 271px;
+    height: 9.305px;
+    flex-shrink: 0;
+
+    color: #F2F9E6;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+} 
+
+
+
+
+
