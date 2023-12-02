@@ -49,7 +49,7 @@ const handleSubmit = (event) => {
               <img src={login} alt="login" className='img-fluid img-form' />
             </div>
             <p className='text-white fs-2'>Seja Cliente</p>
-            <small className='text-white text-wrap text-center' > Junte-se conosco nessa experiência </small>
+            <small className='text-white text-wrap text-center' > Junte-se conosco nessa experiência! </small>
           </div>
 
           <div className='col-md-6 right-box'>

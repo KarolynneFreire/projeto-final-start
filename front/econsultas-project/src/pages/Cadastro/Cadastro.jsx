@@ -44,8 +44,8 @@ function Cadastro() {
         <div className='feature-image m-3'>
          <img src={cadastro} alt="login" className='img-fluid img-form-cadastro' />
         </div>
-        <p className='fs-2 text-black'>Olá, realize seu cadastro!</p>
-        <small className='text-wrap text-center text-black' > Junte-se conosco nessa experiência </small>
+        <p className='fs-2 text-black'>Olá, realize seu cadastro</p>
+        <small className='text-wrap text-center text-black' > Junte-se conosco nessa experiência! </small>
       </div>
 
       <div className='col-md-6 right-box card-form'>
