@@ -6,7 +6,6 @@
   flex-grow: 1;
   min-height: 100vh;
   background-color: #F2F9E6;
-  padding: 20px;
   overflow: auto;
 }
 
@@ -20,6 +19,7 @@
 .formulario-criar-servico h2 {
   color: #447A38;
   margin-bottom: 16px;
+  margin-top: -10px;
 }
 
 .formulario-criar-servico h3 {

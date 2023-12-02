@@ -27,6 +27,9 @@ const Painel = () => {
             <button className="sidebar-btn-profissional" onClick={() => handleNavigation('/historico')}>
                 Histórico
             </button>
+            <button className="sidebar-btn-profissional" onClick={() => handleNavigation('/meus-rendimentos')}>
+                Rendimentos
+            </button>
         </div>
     );
 }

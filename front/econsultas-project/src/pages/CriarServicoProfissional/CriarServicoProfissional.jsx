@@ -17,8 +17,7 @@ const CriarServicoProfissional = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        //lembrar de alterar a rotaa qui, dessa forma estou mandando pra home
-        navigate('/');
+        navigate('/meus-servicos');
     };
 
     const horarios = [...Array(24).keys()].map(hour => `${hour.toString().padStart(2, '0')}:00`);
