@@ -40,8 +40,6 @@ app.post('/login', (req, res) => {
             return res.json(err);
         }
         if (results.length > 0) {
-            // Aqui deve ser implementada a lógica de verificação da senha
-            // Por exemplo, usando bcrypt para comparar a senha criptografada
             const usuarioEncontrado = results[0];
             if (usuarioEncontrado.cad_senha === req.body.senha) {
                 return res.json({ usuario: { nome: usuarioEncontrado.cad_nome, email: usuarioEncontrado.cad_email } });

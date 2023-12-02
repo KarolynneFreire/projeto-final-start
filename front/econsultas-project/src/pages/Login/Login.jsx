@@ -49,7 +49,7 @@ const handleSubmit = (event) => {
               <img src={login} alt="login" className='img-fluid img-form' />
             </div>
             <p className='text-white fs-2'>Seja Cliente</p>
-            <small className='text-white text-wrap text-center' > junte-se concosco nessa experiencia </small>
+            <small className='text-white text-wrap text-center' > junte-se a nós nessa experiência </small>
           </div>
 
           <div className='col-md-6 right-box'>
@@ -60,7 +60,7 @@ const handleSubmit = (event) => {
 
                 <form className='form-card' action="" onSubmit={handleSubmit}>
                   <div className='mb-3'>
-                    <label htmlFor="email">Email</label>
+                    <label htmlFor="email">E-mail</label>
                     <input className="form-control form-control-lg bg-light fs-6 rounded-0" type="email" placeholder='Digite seu email'
                       onChange={handleInput} name='email' />
                     {errors.email && <span className='text-danger'>{errors.email}</span>}
@@ -87,12 +87,9 @@ const handleSubmit = (event) => {
                     <button type='submit' className='btn btn-lg btn-light w-100  fs-6'> <img src={google} alt="marca da google" className='google m-2' />
                       <small>Faça login pelo Google</small></button>
                   </div>
-                  <div className='form-check mb-3'>
-                    <input type="checkbox" className='form-check-input' name="" id="formCheck" />
-                    <label htmlFor="formCheck" className='form-check-label text-secondary'><small>Você concorda com nossos termos e politicas</small></label>
-                  </div>
+
                   <div className='row'>
-                    <small>Não tem conta? <Link to="/cadastro">Cadastra-se</Link> </small>
+                    <small>Não tem conta? <Link to="/cadastro">Cadastre-se</Link> </small>
                   </div>
 
                 </form>

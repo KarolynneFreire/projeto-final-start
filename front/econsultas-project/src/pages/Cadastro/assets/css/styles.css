@@ -56,10 +56,6 @@
     border-color: #fff;
 }
 
-.form-container{
-   
-}
-
 .sign-up{
     left: 0;
     width: 31%;
@@ -171,6 +167,10 @@
     border-radius: 10px;
     height: 50px;
     width: 150px;
+}
+
+.form-check{
+    margin-top: 16px;
 }
 
 

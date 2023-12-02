@@ -45,14 +45,14 @@ function Cadastro() {
          <img src={cadastro} alt="login" className='img-fluid img-form-cadastro' />
         </div>
         <p className='fs-2 text-black'>Olá, realize seu cadastro!</p>
-        <small className='text-wrap text-center text-black' > junte-se concosco nessa experiencia </small>
+        <small className='text-wrap text-center text-black' > junte-se a nós nessa experiência </small>
       </div>
 
       <div className='col-md-6 right-box card-form'>
         <div className='row align-items-center '>
           <div className='header-text mb-4'>
             <h1 className='text-black'>Cadastro</h1>
-            <p className='text-black'>Bem-vindo, simbora fazer o seu cadastro? </p>
+            <p className='text-black'>Bem-vindo, vamos fazer o seu cadastro? </p>
 
             <form className ='form-card' action="" onSubmit={handleSubmit} >
                 <div className='mb-3'>
