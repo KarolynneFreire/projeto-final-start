@@ -30,6 +30,7 @@ function App() {
           <Route path="/cliente" element={<Cliente />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/satisfacao" element={<Satisfacao />} />
+          <Route path= '/pagamento' element = {<Pagamento/>}></Route>
           <Route path="/home-paciente" element={<HomePaciente />} />
           <Route path="/home-profissional" element={<HomeProfissional />} />
           {/* <Route path="/escolha-profissional" element={<CardsProfissionais />} /> */}

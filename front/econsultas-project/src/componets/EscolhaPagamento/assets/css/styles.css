@@ -1,0 +1,47 @@
+.container-escolha-pagamento {
+    width: 100%;
+}
+
+.container-selecionar-pagamento {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 3px;
+}
+
+.titulo-escolha{
+    font-size: 20px;
+    color: #447A38;
+}
+
+.escolha-opcao {
+    border: 2px solid #696969;
+    display: flex;
+    width: 240px;
+    text-align: center;
+    margin: 15px auto;
+    justify-content: space-around;
+    border-radius: 10px;
+    border-color: #447A38;
+}
+
+.escolha-opcao p {
+    margin-top: 10px;
+}
+
+.escolha-opcao img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.botao-forma-pagamento {
+    background-color: #447A38;
+    width: 130px;
+    height: 35px;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 16px;
+    margin: 60px auto;
+}
