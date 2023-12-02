@@ -1,0 +1,100 @@
+.container-rendimentos{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+.pagina-rendimentos {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #F2F9E6;
+  }
+  
+  .saldo-atual {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .solicitar-retirada,
+  .retiradas-pendentes,
+  .extrato-transacoes {
+    background-color: #FFFFFF; 
+    border: 1px solid #D0DEBF; 
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .solicitar-retirada h2,
+  .retiradas-pendentes h2,
+  .extrato-transacoes h2 {
+    color: #447A38; 
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #739B65; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #D3E157;
+  }
+
+.detalhes-retirada {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D0DEBF;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .informacao-retirada {
+    text-align: left;
+  }
+  
+  .informacao-retirada span {
+    display: block;
+  }
+  
+  .total-receber {
+    font-weight: bold;
+    color: #447A38;
+  }
+  
+  .dados-titular p {
+    margin: 0;
+  }
+  
+  .dados-titular strong {
+    display: block;
+    margin-bottom: 10px;
+  } 
+
+  .status-item {
+    position: relative;
+    padding-bottom: 5px;
+  }
+  
+  .status-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #447A38;
+    display: none;
+  }
+  
+  .status-item:hover::after,
+  .status-item-ativo::after {
+    display: block;
+  }
+
+  .status-item-ativo::after {
+    display: block;
+  }
