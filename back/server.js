@@ -50,15 +50,29 @@ app.post('/login', (req, res) => {
 })
 
 app.post('/criar-servico', (req, res) => {
-    const { titulo, valor, descricao, proId } = req.body;
-    const sql = "INSERT INTO ser_servicos (ser_titulo, ser_valor, ser_descricao, status, pro_id) VALUES (?, ?, ?, 'Ativo', ?)";
-    db.query(sql, [titulo, valor, descricao, proId], (err, result) => {
+    const { titulo, valor, descricao, proId, disponibilidade } = req.body;
+    
+    const sqlServico = "INSERT INTO ser_servicos (ser_titulo, ser_valor, ser_descricao, pro_id) VALUES (?, ?, ?, ?)";
+    db.query(sqlServico, [titulo, valor, descricao, proId], (err, result) => {
         if (err) {
             return res.status(500).json(err);
         }
-        return res.status(200).json({ message: "Serviço criado com sucesso", serviceId: result.insertId });
-    })
-})
+        
+        const servicoId = result.insertId;
+
+        const sqlDisponibilidade = "INSERT INTO dis_disponibilidade (dis_dia_semana, dis_horario, ser_id) VALUES (?, ?, ?)";
+        disponibilidade.forEach(slot => {
+            db.query(sqlDisponibilidade, [slot.dia, slot.hora, servicoId], (err, result) => {
+                if (err) {
+                    console.error('Erro ao inserir disponibilidade:', err);
+                }
+            });
+        });        
+
+        res.status(200).json({ message: "Serviço criado com sucesso", serviceId: servicoId });
+    });
+});
+
 
 app.get('/criar-servico', (req, res) => {
     res.send('Endpoint GET /criar-servico (apenas para teste)');
@@ -77,12 +91,30 @@ app.put('/atualizar-servico/:id', (req, res) => {
 
 
 app.get('/meus-servicos/:proId', (req, res) => {
-    const sql = "SELECT * FROM ser_servicos WHERE pro_id = ?"
+    const sql = `
+        SELECT s.*, d.dis_dia_semana, d.dis_horario 
+        FROM ser_servicos s
+        LEFT JOIN dis_disponibilidade d ON s.ser_id = d.ser_id
+        WHERE s.pro_id = ?
+    `;
+
     db.query(sql, [req.params.proId], (err, results) => {
         if (err) {
             return res.status(500).json(err);
         }
-        return res.status(200).json(results);
+
+        const servicos = results.reduce((acc, current) => {
+            const servicoId = current.ser_id;
+            if (!acc[servicoId]) {
+                acc[servicoId] = { ...current, disponibilidade: [] };
+            }
+            if (current.dis_dia_semana && current.dis_horario) {
+                acc[servicoId].disponibilidade.push({ dia: current.dis_dia_semana, hora: current.dis_horario });
+            }
+            return acc;
+        }, {});
+
+        return res.status(200).json(Object.values(servicos));
     });
 });
 
