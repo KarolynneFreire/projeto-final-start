@@ -1,0 +1,78 @@
+.perfil-profissional{
+    margin-left: 350px;
+    text-align: center;
+}
+
+.info-profissional{
+    background-color: #ffff;
+    
+}
+
+.info-profissional h3{
+    color: #447A38;
+    text-align: center;
+
+}
+
+#edit-profissional{
+    text-align: center;
+    width: 5%;
+    height: 5%;
+    margin-left: 10px ;
+}
+
+#icon-profissional{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    
+}
+
+.detalhes-profissional input{
+   color: #447A38;
+   display: flow-root;
+   margin-bottom: 15px;
+   border-radius: 5px;
+   width: 200px;
+   height: 25px;
+   border: 1px solid;
+   
+}
+
+.perfil-profissional button{
+    background-color: #447A38;
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+    font-size: small;
+    color: aliceblue;
+}
+
+.frase-profissional{
+    font-size: 10px;
+    
+
+}
+
+.phrase-profissional::placeholder {
+    font-size: 10px;
+}
+
+.user_icon-profissional{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+ .detalhes-profissional .phrase-sobre{
+   width: 200px;
+   height: 90px;
+}
+
+.detalhes-profissional .phrase-formacao{
+    width: 200px;
+    height: 90px;
+}
