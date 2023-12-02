@@ -8,8 +8,8 @@ const RevisaoPagamento =  ({data}) => {
 
       <h3> Aqui está um resumo da sua compra {data.name}: </h3>
       <p className="review-data">
-        <span> : </span>
-        {/* {emojiData[data.review]} */}
+        <span> Tipo da Compra: </span>
+        {data.verification}
       </p>
 
       <p className="review-data">
