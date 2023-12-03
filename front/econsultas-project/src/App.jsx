@@ -16,36 +16,34 @@ import CriarServicoProfissional from './pages/CriarServicoProfissional/CriarServ
 import MeusServicos from './pages/MeusServicos/MeusServicos';
 import Rendimentos from './pages/Rendimentos/Rendimentos';
 import Pagamento from './pages/Pagamento/Pagamento';
-import HomeEscolhaProfissional from './pages/HomeEscolhaProfissional/CardHomeEscolhaProfissional';
+import PrivateRouter from './PrivateRouter';
 
 function App() {
   return (
-    <UserProvider>
       <>
         <Navbar />
-
+        <UserProvider>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
-          <Route path="/cliente" element={<Cliente />} />
           <Route path="/sobre" element={<Sobre />} />
+          <Route Component={<PrivateRouter />}>
           <Route path="/satisfacao" element={<Satisfacao />} />
           <Route path= '/pagamento' element = {<Pagamento/>}></Route>
           <Route path="/home-paciente" element={<HomePaciente />} />
           <Route path="/home-profissional" element={<HomeProfissional />} />
-          {/* <Route path="/escolha-profissional" element={<CardsProfissionais />} /> */}
           <Route path="/agendamento-consulta" element={<AgendamentoConsulta />} />
           <Route path="/compartilhar-arquivo" element={<CompartilharArquivo />} />
           <Route path="/criar-servico-profissional" element={<CriarServicoProfissional />} />
           <Route path="/meus-servicos" element={<MeusServicos />} />
           <Route path="/meus-rendimentos" element={<Rendimentos />} />
-          <Route path="/escolha-profissional" element={<HomeEscolhaProfissional />} />
+          </Route>
         </Routes>
-
+        </UserProvider>
         <Footer />
       </>
-    </UserProvider>
+    
   );
 }
 

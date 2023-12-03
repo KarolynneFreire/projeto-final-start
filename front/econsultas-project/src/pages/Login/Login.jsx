@@ -8,14 +8,19 @@ import "../Login/assets/css/styles.css"
 import google from "../Login/assets/img/logotipo-google.jpg"
 
 function Login() {
+  const { setUser } = useUser();
   const [values, setValues] = useState({
     email: '',
     senha: ''
   });
 
-  const navigate = useNavigate()
-  const [errors, setErrors] = useState({})
-  const { login: updateUser } = useUser()
+  // const navigate = useNavigate()
+  // const [errors, setErrors] = useState({})
+  // const { login: updateUser } = useUser()
+
+  const navigate = useNavigate();
+  const [errors, setErrors] = useState({
+  })
 
   const handleInput = (event) => {
     setValues({ ...values, [event.target.name]: event.target.value.trim() });
@@ -29,9 +34,9 @@ const handleSubmit = (event) => {
     if (Object.values(newErrors).every(error => error === "")) {
         axios.post('http://localhost:8081/login', values)
             .then(res => {
-                if (res.data.usuario) {
-                    updateUser(res.data.usuario);
-                    navigate('/home-paciente');
+                if (res.data.usuario === "Sucesso") {
+                  setUser({ email: values.email });
+                  navigate('/home-paciente');
                 } else {
                     alert("Credenciais inválidas");
                 }
@@ -49,11 +54,8 @@ const handleSubmit = (event) => {
               <img src={login} alt="login" className='img-fluid img-form' />
             </div>
             <p className='text-white fs-2'>Seja Cliente</p>
-
-            <small className='text-white text-wrap text-center' > junte-se a nós nessa experiência </small>
-            </div>
-
-
+            <small className='text-white text-wrap text-center' > Junte-se conosco nessa experiência! </small>
+          </div>
           <div className='col-md-6 right-box'>
             <div className='row align-items-center '>
               <div className='header-text mb-4'>
