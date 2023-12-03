@@ -7,6 +7,11 @@ function index() {
   return (
     <div>
         <section>
+
+        <div className="container-dep-titulo">
+            <h2>Depoimentos</h2>
+        </div>
+        
         <div className="container-dep">
 
             <div className="cards">

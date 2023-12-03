@@ -62,6 +62,10 @@
     .imagem-profissional {
         display: none;
     }
+
+    .passos {
+        width: 85%;
+    }
     
 }
 
@@ -70,7 +74,11 @@
     .como-funciona{
         display: flex;
         justify-content: space-around;
-        margin: 10px -50px;        
+        margin: auto;       
+    }
+
+    .passos {
+        width: 85%;
     }
 
 }
