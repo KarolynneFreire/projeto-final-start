@@ -46,6 +46,7 @@ function Cadastro() {
         </div>
         <p className='fs-2 text-black'>Olá, realize seu cadastro</p>
         <small className='text-wrap text-center text-black' > Junte-se conosco nessa experiência! </small>
+
       </div>
 
       <div className='col-md-6 right-box card-form'>

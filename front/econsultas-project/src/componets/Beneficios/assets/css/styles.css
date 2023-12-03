@@ -5,18 +5,19 @@
 }
 
 .beneficios-intro {
-    width: 100%;
+    width: 90%;
     height: 100%;
-    padding: 80px 0 50px 50px;
+    padding: 80px 0 50px 70px;
     margin: 0 auto;
 }
 
 .beneficios-intro p {
-    width: 65%;
+    width: 75%;
+    margin-top: 20px;
 }
 
 .container-4-beneficios {
-    padding-left: 50px;
+    padding: 0;
 }
 
 .container-4-beneficios img {
@@ -26,30 +27,35 @@
 
 .container-4-beneficios .beneficios-1-2 {
     display: flex;
-    margin-bottom: 30px;
+    width: 90%;
+    padding: 0 70px;
+    margin: 10px auto;
 }
 
 .container-4-beneficios .beneficios-3-4 {
     display: flex;
+    width: 90%;
+    padding: 0 70px;
+    margin: 40px auto;
     justify-content: space-between;
     margin-bottom: 70px;
 }
 
 .container-4-beneficios .beneficio-1 p {
-    width: 60%;
+    width: 70%;
     margin-right: 260px;
 }
 
 .container-4-beneficios .beneficio-2 p {
-    width: 50%;
+    width: 70%;
 }
 
 .container-4-beneficios .beneficio-3 p {
-    width: 45%;
+    width: 80%;
 }
 
 .container-4-beneficios .beneficio-4 p {
-    width: 60%;
+    width: 80%;
 }
 
 .container-4-beneficios .beneficio-4 {
@@ -60,7 +66,7 @@
 @media screen and (max-width: 800px) {
 
     .beneficios-intro {
-        padding-left: 120px;
+        padding-left: 70px;
     }
 
     .container-4-beneficios .beneficios-1-2 {
@@ -113,12 +119,12 @@
     }
     
     .container-4-beneficios .beneficios-1-2 {
-        padding-left: 0;
+        padding-left: 50px;
         margin: 0 auto;
     }
 
     .container-4-beneficios .beneficios-3-4 {
-        padding-left: 0;
+        padding-left: 50px;
         margin: 0 auto;
     }
 

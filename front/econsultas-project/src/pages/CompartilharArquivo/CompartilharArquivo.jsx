@@ -11,16 +11,22 @@ const CompartilharArquivo = () => {
   };
 
   const pular = () => {
-    //lembrar de alterar o botão de pular
-    navigate('/');
+    navigate('/pagamento');
   };
+
+  const [mensagemErro, setMensagemErro] = useState('');
 
   const enviarFormulario = (evento) => {
     evento.preventDefault();
-    console.log(arquivo);
-    //alterar aqui tbm, esse é botão de salvar e continuar
-    navigate('/');
-  };
+    if (!arquivo) {
+        setMensagemErro('Por favor, adicione um arquivo ou escolha pular.');
+        return;
+    }
+    console.log("Arquivo enviado:", arquivo);
+    setMensagemErro('');
+    navigate('/pagamentos');
+};
+
 
   return (
     <div className="conteudo-centralizado">
@@ -42,6 +48,7 @@ const CompartilharArquivo = () => {
           <label htmlFor="selecao-arquivo" className="botao-selecionar">Selecionar arquivos</label>
         </div>
 
+        {mensagemErro && <p className="mensagem-erro">{mensagemErro}</p>}
         <div className="area-botoes">
           <button type="button" className="botao-pular" onClick={pular}>Pular</button>
           <button type="submit" className="botao-salvar">Salvar e continuar</button>

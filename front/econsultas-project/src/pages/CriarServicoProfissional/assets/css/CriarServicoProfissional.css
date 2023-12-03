@@ -1,78 +1,83 @@
+.container-criar-servico {
+  display: flex;
+}
+
 .pagina-criar-servico {
-    background-color: #F2F9E6;
-    padding: 20px;
-  }
-  
-  .formulario-criar-servico {
-    background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-  .formulario-criar-servico h2 {
-    color: #447A38;
-    margin-bottom: 16px;
-  }
+  flex-grow: 1;
+  min-height: 100vh;
+  background-color: #F2F9E6;
+  overflow: auto;
+}
 
-  .formulario-criar-servico h3 {
-    color: #739B65;
-    margin-bottom: -10px;
-    font-size: 18px;
-  }
-  
-  .formulario-criar-servico input,
-  .formulario-criar-servico textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 4px;
-    border: 1px solid #739B65;
-  }
-  
-  .formulario-criar-servico button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: #447A38;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .formulario-criar-servico button:hover {
-    background-color: #739B65;
-  }
-  
+.formulario-criar-servico {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.formulario-criar-servico h2 {
+  color: #447A38;
+  margin-bottom: 16px;
+  margin-top: -10px;
+}
+
+.formulario-criar-servico h3 {
+  color: #739B65;
+  margin-bottom: -10px;
+  font-size: 18px;
+}
+
+.formulario-criar-servico input,
+.formulario-criar-servico textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #739B65;
+}
+
+.formulario-criar-servico button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #447A38;
+  color: white;
+  cursor: pointer;
+}
+
+.formulario-criar-servico button:hover {
+  background-color: #739B65;
+}
+
 .tabela-disponibilidade {
-    width: 100%;
-    margin-top: 20px;
-    border-collapse: collapse;
-  }
-  
-  .tabela-disponibilidade th,
-  .tabela-disponibilidade td {
-    border: 1px solid #D0DEBF;
-    text-align: center;
-    padding: 5px;
-  }
-  
-  .tabela-disponibilidade th {
-    background-color: #447A38;
-    color: white;
-  }
-  
-  .celula-disponibilidade {
-    background-color: #F2F9E6;
-    cursor: pointer;
-  }
-  
-  .celula-disponibilidade:hover {
-    background-color: #D3E157;
-  }
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
 
-  .selecionado {
-    background-color: #739B65;
-  }
-  
+.tabela-disponibilidade th,
+.tabela-disponibilidade td {
+  border: 1px solid #D0DEBF;
+  text-align: center;
+  padding: 5px;
+}
+
+.tabela-disponibilidade th {
+  background-color: #447A38;
+  color: white;
+}
+
+.celula-disponibilidade {
+  background-color: #F2F9E6;
+  cursor: pointer;
+}
+
+.celula-disponibilidade:hover {
+  background-color: #D3E157;
+}
+
+.selecionado {
+  background-color: #739B65;
+}

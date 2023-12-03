@@ -26,7 +26,7 @@ function card() {
                 <i className="bi bi-star"></i>
                 <i className="bi bi-star"></i>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>Fisioterapeuta especializado e focado em reabilitação musculoesquelética.</p>
                 <div className="btns">
                     <button type="submit">Agendar</button>
                     <button type="submit">Saber +</button>
@@ -44,7 +44,7 @@ function card() {
                 <i className="bi bi-star-half"></i>
                 <i className="bi bi-star"></i>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>Psicólogo dedicado a facilitar jornadas de autodescoberta e bem-estar.</p>
                 <div className="btns">
                     <button type="submit">Agendar</button>
                     <button type="submit">Saber +</button>
@@ -62,7 +62,7 @@ function card() {
                 <i className="bi bi-star"></i>
                 <i className="bi bi-star"></i>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>Nutricionista comprometido em promover hábitos alimentares saudáveis.</p>
                 <div className="btns">
                     <button type="submit">Agendar</button>
                     <button type="submit">Saber +</button>

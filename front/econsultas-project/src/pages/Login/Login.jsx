@@ -56,7 +56,6 @@ const handleSubmit = (event) => {
             <p className='text-white fs-2'>Seja Cliente</p>
             <small className='text-white text-wrap text-center' > Junte-se conosco nessa experiência! </small>
           </div>
-
           <div className='col-md-6 right-box'>
             <div className='row align-items-center '>
               <div className='header-text mb-4'>
@@ -65,7 +64,7 @@ const handleSubmit = (event) => {
 
                 <form className='form-card' action="" onSubmit={handleSubmit}>
                   <div className='mb-3'>
-                    <label htmlFor="email">Email</label>
+                    <label htmlFor="email">E-mail</label>
                     <input className="form-control form-control-lg bg-light fs-6 rounded-0" type="email" placeholder='Digite seu email'
                       onChange={handleInput} name='email' />
                     {errors.email && <span className='text-danger'>{errors.email}</span>}
@@ -100,7 +99,7 @@ const handleSubmit = (event) => {
 
           </div>
         </div>
-
+        
       </div>
 
 

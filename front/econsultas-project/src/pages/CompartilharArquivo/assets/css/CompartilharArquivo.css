@@ -58,22 +58,26 @@
   margin-left: 10px;
 }
 
+.botao-salvar,
 .botao-pular {
-  background-color: #739B65;
-  color: #F2F9E6;
-}
-
-.botao-salvar {
   background-color: #447A38;
   color: #F2F9E6;
 }
 
-.botao-selecionar:hover,
-.botao-pular:hover,
-.botao-salvar:hover {
-  opacity: 0.85;
+.botao-selecionar:hover {
+opacity: 0.85;
+}
+
+.botao-salvar:hover, 
+.botao-pular:hover{
+  background-color: #739B65;
 }
 
 #selecao-arquivo {
   display: none;
+}
+
+.mensagem-erro {
+  color: #D8000C;
+  margin-top: 10px;
 }

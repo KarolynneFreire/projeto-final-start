@@ -6,7 +6,7 @@ const UserProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
   const isLoggedIn = useMemo(() => user !== null, [user]);
-
+  
   return (
     <UserContext.Provider value={{ user, setUser, isLoggedIn }}>
       {children}

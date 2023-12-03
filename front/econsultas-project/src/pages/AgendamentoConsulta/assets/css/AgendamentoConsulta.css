@@ -47,9 +47,9 @@
     margin: 5px;
     background: none;
     border: 1px solid #447A38;
-
     border-radius: 5px;
     cursor: pointer;
+    color: #447A38;
   }
   
   .selecionar-data button.active,
@@ -57,6 +57,7 @@
   .selecionar-data button:hover,
   .selecionar-horario button:hover {
     background-color: #447A38;
+    color: #F2F9E6;
   }
 
 .botao-acao {
@@ -80,5 +81,18 @@
   .botao-salveContinue:hover {
     background-color: #739B65;
   }
+
+  .mensagem-erro {
+    color: #D8000C;
+    background-color: #FFD2D2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.botao-salveContinue:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
   
   

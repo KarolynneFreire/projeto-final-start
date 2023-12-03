@@ -56,10 +56,6 @@
     border-color: #fff;
 }
 
-.form-container{
-   
-}
-
 .sign-up{
     left: 0;
     width: 31%;
@@ -176,6 +172,12 @@
 .check-cadastro{
     margin-top: 10px;
 }
+
+
+.form-check{
+    margin-top: 16px;
+}
+
 
 
 @media only screen and (max-width:768px) {

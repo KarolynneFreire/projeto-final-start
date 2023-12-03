@@ -3,7 +3,6 @@ import Painel from '../../componets/Painel/Painel';
 import Calendario from '../../componets/Calendario/Calendario';
 
 const HomeProfissional = () => {
-    
 
     return (
         <div className='containerProfissional'>
