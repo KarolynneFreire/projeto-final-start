@@ -51,7 +51,7 @@ const handleSubmit = (event) => {
             <p className='text-white fs-2'>Seja Cliente</p>
 
             <small className='text-white text-wrap text-center' > junte-se a nós nessa experiência </small>
-
+            </div>
 
 
           <div className='col-md-6 right-box'>
@@ -97,7 +97,7 @@ const handleSubmit = (event) => {
 
           </div>
         </div>
-        </div>
+        
       </div>
 
 
