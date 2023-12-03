@@ -1,21 +1,18 @@
-// import useAuth from './UseAuth';
+import { useEffect } from 'react';
+import { useNavigate, useLocation, Outlet } from 'react-router-dom';
+import { useUser } from './contexts/UserContext';
 
-// export default function PrivateRouter() {
-//   const navigate = useNavigate();
 
-//   let isAuthenticated = true;
+export default function PrivateRouter() {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const { isLoggedIn } = useUser();
 
-//   const loginRedirect = () => {
-//     navigate('/');
-//   };
+  useEffect(() => {
+    if (!isLoggedIn) {
+      navigate('/login');
+    }
+  }, [location]);
 
-//   const logout = () => {
-//     navigate('/');
-//   };
-
-//   return {
-//     isAuthenticated,
-//     loginRedirect,
-//     logout,
-//   };
-// }
+  return <Outlet />;
+}
