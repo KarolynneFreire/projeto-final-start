@@ -1,4 +1,4 @@
-import {}
+import from{} '../'
 
 function Historico (){
     return(
