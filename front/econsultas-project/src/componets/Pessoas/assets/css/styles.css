@@ -1,0 +1,98 @@
+.equipe {
+    
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+  
+}
+
+.equipe__descricao {
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-bottom: -40px;
+}
+
+.equipe__titulo {
+    color:  #447A38;
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.pessoas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+}
+
+
+.pessoa {
+    display: flex;
+    flex: 1 1 150px;
+    flex-direction: column;
+    
+}
+
+.pessoa__nome {
+    color: #447A38;;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+
+.pessoa__funcao {
+    color: #595959;
+    font-size: 1rem;
+    text-transform: lowercase;
+}
+
+.pessoa__imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    height: 150px;
+    margin: 25px 0 10px 20px;
+    width: 150px;
+    border: 3px solid #447A38;
+}
+
+.pessoa__imagem--jonatha {
+    background-image: url('../img/jonatha.jpg');
+}
+
+.pessoa__imagem--karolynne {
+    background-image: url('../img/karolynne.jpg');
+}
+
+.pessoa__imagem--lais {
+    background-image: url('../img/lais.jpg');
+}
+
+.pessoa__imagem--leticia {
+    background-image: url('../img/leticia.jpg');
+}
+
+.pessoa__imagem--maju {
+    background-image: url('');
+}
+
+.pessoa__imagem--rogerio {
+    background-image: url('../img/rogerio.PNG');
+}
+
+
+
+@media screen and (min-width: 0) {
+    .pessoa {
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .pessoa {
+        margin-bottom: 0;
+    }
+}
