@@ -20,11 +20,11 @@
     font-weight: 700;
     line-height: normal;
 }
-.fotocard{
+/* .fotocard{
    
     
 
-}
+} */
 
 .paginatoda {
     padding: 30px 30px;
@@ -38,7 +38,6 @@
     align-items: center;
     justify-content: center;
     Width: 100%;
-    
     margin: auto;
 }
 
@@ -47,17 +46,18 @@
 .card-button{
    
 
-    width: 10rem;
+    width: 12rem;
     height: 2rem;
     border-radius: 16px;
     border-color: #D0DEBF;
     background-color: #D0DEBF;
     transition: background-color 0.3s, width 0.3s, height 0.3s;
+    color: #447A38;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-
-
-    
-    
+  
 }
 .card-button:hover{
 
