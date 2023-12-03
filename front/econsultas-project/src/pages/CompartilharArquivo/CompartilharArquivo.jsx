@@ -11,8 +11,7 @@ const CompartilharArquivo = () => {
   };
 
   const pular = () => {
-    //lembrar de alterar o botão de pular <<<<<<<<<<<<<<<<<<<<
-    navigate('/');
+    navigate('/pagamento');
   };
 
   const [mensagemErro, setMensagemErro] = useState('');
@@ -25,8 +24,7 @@ const CompartilharArquivo = () => {
     }
     console.log("Arquivo enviado:", arquivo);
     setMensagemErro('');
-        //lembrar de alterar o botão de pular  <<<<<<<<<<<<<<<<<<
-    navigate('/tela-de-pagamentos');
+    navigate('/pagamentos');
 };
 
 

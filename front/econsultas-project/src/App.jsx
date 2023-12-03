@@ -16,6 +16,7 @@ import CriarServicoProfissional from './pages/CriarServicoProfissional/CriarServ
 import MeusServicos from './pages/MeusServicos/MeusServicos';
 import Rendimentos from './pages/Rendimentos/Rendimentos';
 import Pagamento from './pages/Pagamento/Pagamento';
+import HomeEscolhaProfissional from './pages/HomeEscolhaProfissional/CardHomeEscolhaProfissional';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="/criar-servico-profissional" element={<CriarServicoProfissional />} />
           <Route path="/meus-servicos" element={<MeusServicos />} />
           <Route path="/meus-rendimentos" element={<Rendimentos />} />
+          <Route path="/escolha-profissional" element={<HomeEscolhaProfissional />} />
         </Routes>
 
         <Footer />
