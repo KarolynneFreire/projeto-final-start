@@ -1,4 +1,4 @@
-import from{} '../'
+
 
 function Historico (){
     return(
@@ -8,7 +8,7 @@ function Historico (){
                 </div>
     
                 <div className="historicoCalendario">
-                    {}
+                    
                 </div>
     
                 <div className="mes">
