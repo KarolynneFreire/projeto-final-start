@@ -5,8 +5,6 @@ import Depoimento from '../componets/Depoimento/Depoimento'
 import Faq from '../componets/Faq/Faq'
 import QuemSomos from '../componets/QuemSomos/QuemSomos'
 import CardsProfissionais from '../componets/CardsProfissionais/Card'
-import Pessoas from '../componets/Pessoas/Pessoas'
-
 
 export default function Home() {
   return (
@@ -18,7 +16,7 @@ export default function Home() {
       <CardsProfissionais></CardsProfissionais>
       <Beneficios></Beneficios>
       <Faq></Faq> 
-      <Pessoas></Pessoas>
+      
     </div>
   )
 }
