@@ -36,7 +36,7 @@ function footer() {
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 teste">
 
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3 text-secondary"></i>e-Consultas
+                  <i className="fas fa-gem me-3 text-secondary"></i>e-consultas
                 </h6>
                 <p>
                   Junte-se à nós nessa jornada para um futuro mais saúdavel e conectado!
