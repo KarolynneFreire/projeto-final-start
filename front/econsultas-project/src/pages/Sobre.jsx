@@ -1,7 +1,9 @@
+import Pessoas from "../componets/Pessoas/Pessoas";
+
 export default function Sobre() {
   return (
     <div>
-<h1>Sobre</h1>
+<Pessoas></Pessoas>
     </div>
   )
 }
