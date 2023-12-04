@@ -28,6 +28,8 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/sobre" element={<Sobre />} />
+          <Route path= '/pagamento' element = {<Pagamento/>}></Route>
+
           <Route Component={<PrivateRouter />}>
           <Route path="/satisfacao" element={<Satisfacao />} />
           <Route path= '/pagamento' element = {<Pagamento/>}></Route>

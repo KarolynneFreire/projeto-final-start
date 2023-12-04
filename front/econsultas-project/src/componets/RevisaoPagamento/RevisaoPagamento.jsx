@@ -1,8 +1,8 @@
-
+import '../RevisaoPagamento/assets/css/styles.css'
 const RevisaoPagamento =  ({data}) => {
   return (
     <div className="thack-container">
-      <h2>Está quase lá... </h2>
+      <h2 className="titulo-resisao">Está quase lá... </h2>
       <p > Ficamos bastantes felizes pela preferência!</p>
       <p>Para concluir aperte o botão abaixo: </p>
 
