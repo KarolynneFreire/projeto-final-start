@@ -17,6 +17,7 @@ export default function Navbar() {
       <div className="navbar-nav mx-auto">
         <Link to='/'  className="nav-link text-light link">Home</Link>
         <Link to='/sobre' className="nav-link text-light link">Sobre</Link>
+        <Link to='/satisfacao' className="nav-link text-light link">Formulario Satisfacao</Link>
       </div>
     </div>
     <div className="collapse navbar-collapse d-lg-flex justify-content-around" id="navbarNavAltMarkup">
