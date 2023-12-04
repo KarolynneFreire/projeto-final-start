@@ -23,7 +23,7 @@ function index() {
 
     <div className="intro">
         <h2>Como Funciona em 4 Passos Simples</h2>
-        <p>SuaSaúde veio para tornar o acesso a teleconsultas médicas fácil e mais
+        <p>O e-consultas veio para tornar o acesso a teleconsultas médicas fácil e mais
             acessível para todos. Descubra como utilizar a nossa plataforma de uma
             maneira muito simples seguindo apenas 4 passos:</p>
     </div>

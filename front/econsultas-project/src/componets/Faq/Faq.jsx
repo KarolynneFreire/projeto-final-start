@@ -11,7 +11,7 @@ function Faq() {
 
                 <h3>FAQ</h3>
                 <h2>Perguntas e Respostas</h2>
-                <p>Confira algumas das perguntas mais frequentes sobre o E-consultas e obtenha
+                <p>Confira algumas das perguntas mais frequentes sobre o e-consultas e obtenha
                     respostas rápidas para suas dúvidas. Estamos sempre prontos para ajudá-lo
                     a entender melhor nossa plataforma e os serviços oferecidos.</p>
 
@@ -22,12 +22,12 @@ function Faq() {
                 <div className="faq-coluna-esquerda">
 
                     <div className="faq-pergunta">
-                        <p>Como funciona a(o) SuaSaude?</p>
+                        <p>Como funciona o e-consultas?</p>
                         <img src={seta} alt="seta para baixo" />
                     </div>
 
                     <div className="faq-pergunta">
-                        <p>É seguro usar o(a) SuaSaude?</p>
+                        <p>É seguro usar o e-consultas?</p>
                         <img src={seta} alt="seta para baixo" />
                     </div>
 

@@ -24,7 +24,7 @@ const CompartilharArquivo = () => {
     }
     console.log("Arquivo enviado:", arquivo);
     setMensagemErro('');
-    navigate('/pagamentos');
+    navigate('/pagamento');
 };
 
 

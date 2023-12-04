@@ -35,7 +35,7 @@ function index() {
 
                     <img src={taina} alt="Primeiro depoimento do cliente Taina" />
 
-                    <p>“Encontrei na SuaSaude a solução perfeita para
+                    <p>“Encontrei no e-consultas a solução perfeita para
                     minha família. Os preços são acessíveis e os
                     médicos são ótimos. Recomendo a todos que
                     precisam de uma alternativa aos planos de
