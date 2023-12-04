@@ -6,6 +6,7 @@ import axios from 'axios'
 import login from "../Login/assets/img/log-in.webp"
 import "../Login/assets/css/styles.css"
 import google from "../Login/assets/img/logotipo-google.jpg"
+import { useEffect } from 'react';
 
 function Login() {
   const { setUser } = useUser();
@@ -22,9 +23,29 @@ function Login() {
   const [errors, setErrors] = useState({
   })
 
-  const handleInput = (event) => {
-    setValues({ ...values, [event.target.name]: event.target.value.trim() });
-};
+  useEffect(
+    function() {
+      const container = document.getElementById('container')
+      const registroBnt = document.getElementById('cadastre');
+      const loginBnt = document.getElementById('login');
+      
+      
+      registroBnt.addEventListener('click', () => {
+          container.classList.add("active");
+      });
+      
+      
+      loginBnt.addEventListener('click',() => {
+          container.classList.remove("active");
+      });
+      
+    },
+    []
+  )
+
+  const handleInput = (event) =>{
+    setValues(prev =>({...prev,[event.target.email]: [event.target.value]}))
+  }
 
 const handleSubmit = (event) => {
     event.preventDefault();

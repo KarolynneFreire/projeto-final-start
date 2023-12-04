@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import { UserProvider } from './contexts/UserContext';
 import Navbar from './componets/NavBar/NavBar';
 import Cadastro from './pages/Cadastro/Cadastro';
-import Cliente from './pages/Cliente';
 import Home from './pages/Home';
 import Login from './pages/Login/Login';
 import HomePaciente from './pages/HomePaciente/HomePaciente';
