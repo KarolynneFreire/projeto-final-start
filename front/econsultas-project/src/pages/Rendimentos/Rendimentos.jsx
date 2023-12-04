@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './assets/css/Rendimentos.css'
 import Painel from '../../componets/Painel/Painel';
 

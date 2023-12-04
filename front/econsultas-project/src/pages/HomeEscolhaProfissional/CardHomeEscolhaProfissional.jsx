@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import maria from "../HomeEscolhaProfissional/assets/img/pessoa-maria.jpg"
-import joana from "../HomeEscolhaProfissional/assets/img/pessoa-joao.jpg"
-import josefa from "../HomeEscolhaProfissional/assets/img/pessoa-josefa.jpg"
+// import maria from "../HomeEscolhaProfissional/assets/img/pessoa-maria.jpg"
+// import joana from "../HomeEscolhaProfissional/assets/img/pessoa-joao.jpg"
+// import josefa from "../HomeEscolhaProfissional/assets/img/pessoa-josefa.jpg"
 import "../HomeEscolhaProfissional/assets/css/styles.css"
 import fotoCard from "../HomeEscolhaProfissional/assets/img/fotocard.png"
 
