@@ -6,7 +6,6 @@ import Faq from '../componets/Faq/Faq'
 import QuemSomos from '../componets/QuemSomos/QuemSomos'
 import CardsProfissionais from '../componets/CardsProfissionais/Card'
 
-
 export default function Home() {
   return (
     <div>
@@ -17,6 +16,7 @@ export default function Home() {
       <CardsProfissionais></CardsProfissionais>
       <Beneficios></Beneficios>
       <Faq></Faq> 
+      
     </div>
   )
 }
