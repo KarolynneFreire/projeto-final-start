@@ -44,7 +44,7 @@ export default function Pagamento() {
             <div className="inputs-container">{curretComponent}</div>
             <div className="actions">
                 {!isFirstStep && (<button type="button" onClick={() => changeStep(curretStep -1)}> Voltar</button>)}
-                {!isLastStep ? (<button type="submit">Avançar</button>) : (<button type="button">Enviar</button>)}
+                {!isLastStep ? (<button type="submit">Avançar</button>) : (<button  type="button">Enviar</button>)}
             </div>
         </form>
 
