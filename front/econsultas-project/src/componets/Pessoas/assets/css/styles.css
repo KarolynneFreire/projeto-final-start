@@ -7,7 +7,7 @@
 }
 
 .equipe__descricao {
-    color: #595959;
+    color: #447A38;
     font-size: 1.75rem;
     font-weight: 100;
     margin-top: 50px;
@@ -16,7 +16,6 @@
 
 .equipe__titulo {
     color:  #447A38;
-    font-family: Pacifico, cursive;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -40,6 +39,8 @@
     color: #447A38;;
     font-size: 1.2rem;
     margin: 1rem 0;
+    text-align: center;
+   
 }
 
 
@@ -47,6 +48,8 @@
     color: #595959;
     font-size: 1rem;
     text-transform: lowercase;
+    text-align: center;
+
 }
 
 .pessoa__imagem {
@@ -55,9 +58,10 @@
     background-size: cover;
     border-radius: 100%;
     height: 150px;
-    margin: 25px 0 10px 20px;
     width: 150px;
+    margin: 25px 0 10px 20px;
     border: 3px solid #447A38;
+    flex-wrap: wrap;
 }
 
 .pessoa__imagem--jonatha {
@@ -84,6 +88,132 @@
     background-image: url('../img/rogerio.PNG');
 }
 
+@media screen and (max-width: 1235px) {
+    .pessoa__imagem { 
+        height: 180px;
+        width: 180px;
+        margin: 25px 0 10px 80px;
+       
+    }
+
+}
+
+@media screen and (max-width: 1115px) {
+    .pessoa__imagem { 
+        height: 200px;
+        width: 200px;
+        margin: 10px 0 5px 50px;
+       
+    }
+
+}
+
+@media screen and (max-width: 966px) {
+    .pessoa__imagem { 
+        margin: 10px 0 5px 50px;
+       
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .pessoa__imagem { 
+        margin: 10px 0 5px 80px;
+       
+    }
+}
+
+
+@media screen and (max-width: 786px) {
+    .pessoa__imagem { 
+        margin: 10px 0 5px 135px;
+        height: 300px;
+        width: 300px;
+        
+       
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .pessoa__imagem { 
+        margin: 10px 0 5px 130px;    
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .pessoa__imagem { 
+        margin: 10px 0 5px 110px;
+       
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    .pessoa__imagem { 
+        margin: 10px 0 5px 120px;
+       
+    }
+}
+
+
+@media screen and (max-width: 730px) {
+    .pessoa__imagem { 
+        margin: 10px 0 5px 110px;
+       
+    }
+}
+
+
+
+@media screen and (max-width: 715px) {
+    .pessoa__imagem { 
+        margin: 10px 0 5px 100px;
+       
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .pessoa__nome {
+
+        margin-left: 50px !important;
+    }
+    
+    .pessoa__funcao {
+        margin-left: 50px;   
+    }
+      
+}
+
+
+@media screen and (max-width: 430px) {
+    .pessoa__imagem { 
+        margin: 10px 0 5px 30px;
+       
+    }
+}
+@media screen and (max-width: 414px) {
+    .pessoa__imagem { 
+        margin: 10px 0 5px 10px;
+        height: 200px;
+        width: 200px;
+       
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .pessoas{
+    margin-left: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 379px) {
+    .pessoa__imagem { 
+        margin: 10px 0 5px 15px;
+       
+    }
+}
+
 
 
 @media screen and (min-width: 0) {
@@ -91,8 +221,11 @@
         margin-bottom: 2rem;
     }
 }
+
 @media screen and (min-width: 768px) {
     .pessoa {
         margin-bottom: 0;
     }
 }
+
+
