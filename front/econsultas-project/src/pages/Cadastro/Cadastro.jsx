@@ -6,7 +6,10 @@ import "../Cadastro/assets/css/styles.css"
 import cadastro from"../Cadastro/assets/img/cadastro-casa.jpg"
 
 
+
+
 function Cadastro() {
+
 
   const [values, setValues] = useState({
     nome: '',
@@ -14,18 +17,22 @@ function Cadastro() {
     senha: ''
   })
 
+
   const navigate = useNavigate();
   const [errors, setErrors] = useState({
   })
+
 
   const handleInput = (event) =>{
     setValues({...values, [event.target.name]: event.target.value.trim()});
   }
 
+
   const handleSubmit = (event) =>{
     event.preventDefault();
     const newErrors = Validacao(values);
     setErrors(newErrors);
+
 
     if(Object.values(newErrors).every(error => error === "")){
       axios.post('http://localhost:8081/cadastro', values)
@@ -35,8 +42,9 @@ function Cadastro() {
         .catch(err => console.log(err));
     }
   }
-
+ 
   return (
+
 
     <div className='container d-flex justify-content-center align-items-center min-vh-100 card-contentt'>
     <div className='row border rounder-5 p-3 bg-white shadow box-area'>
@@ -47,13 +55,16 @@ function Cadastro() {
         <p className='fs-2 text-black'>Olá, realize seu cadastro</p>
         <small className='text-wrap text-center text-black' > Junte-se conosco nessa experiência! </small>
 
+
       </div>
+
 
       <div className='col-md-6 right-box card-form'>
         <div className='row align-items-center '>
           <div className='header-text mb-4'>
             <h1 className='text-black'>Cadastro</h1>
             <p className='text-black'>Bem-vindo, vamos fazer o seu cadastro? </p>
+
 
             <form className ='form-card' action="" onSubmit={handleSubmit} >
                 <div className='mb-3'>
@@ -82,14 +93,18 @@ function Cadastro() {
                 <Link to="/login" className='btn btn-default border w-100 fs-6 text-decoration-none text-black'>Login</Link>
             </form>
 
+
 </div>
+
 
 </div>
 </div>
+
 
 </div>
 </div>
   )
 }
+
 
 export default Cadastro
