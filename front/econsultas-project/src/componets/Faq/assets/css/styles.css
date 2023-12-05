@@ -22,15 +22,18 @@
 }
 
 .faq-colunas .faq-coluna-esquerda{
-    height: 350px;
+    display: flex;
+    height: 100%;
     float: left;
     flex-direction: column;
     width: 45%;
     margin: 30px auto 100px auto;
+    border: 2px solid red;
 }
 
 .faq-colunas .faq-coluna-direita{
-    height: 350px;
+    display: flex;
+    height: 100%;
     float: right;
     flex-direction: column;
     width: 45%;
@@ -42,23 +45,49 @@
     display: flex;
     justify-content: space-between;
     width: 460px;
-    height: 65px;
-    margin: 18px auto;
+    /* height: 65px; */
+    height: 100%;
+    width: 30rem;
+    margin: 5px auto;
     border-radius: 10px;
+    flex-direction: column;
+    border: 2px solid red;
+    align-items: center;
 }
 
 .faq-pergunta img{
     width: 25px;
     height: 25px;
     justify-content: flex-end;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin: auto auto auto 60px;
 }
 
 .faq-pergunta p{
     color: #447A38;
-    margin: 20px 0 0 10px;
-    
+    margin: 13px auto 13px auto;
+    justify-content: flex-start;
+}
+
+.faq-pergunta span {
+    border: 2px solid crimson;
+    margin: auto;
+    width: 100%;
+}
+
+.faq-resposta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 9rem;
+    padding: 5px 5px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid blue;
+}
+
+#botao-faq {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1100px) {
