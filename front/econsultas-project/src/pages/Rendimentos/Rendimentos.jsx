@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './assets/css/Rendimentos.css'
 import Painel from '../../componets/Painel/Painel';
 
@@ -13,7 +13,7 @@ const Rendimentos = () => {
     };
 
     const dadosRetirada = {
-        metodo: 'PIX',
+        metodo: 'Pix',
         valor: 'R$250,00',
         tarifa: '-R$2,00',
         totalReceber: 'R$ 248,00',

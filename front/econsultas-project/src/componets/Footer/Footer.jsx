@@ -36,7 +36,7 @@ function footer() {
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 teste">
 
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3 text-secondary"></i>e-Consultas
+                  <i className="fas fa-gem me-3 text-secondary"></i>e-consultas
                 </h6>
                 <p>
                   Junte-se à nós nessa jornada para um futuro mais saúdavel e conectado!
@@ -90,8 +90,8 @@ function footer() {
                 </p>
                 <p><i className="bi bi-whatsapp me-3 teste"></i> + 01 234 567 88</p>
                 <p><i className="bi bi-shield-check me-3 teste "></i> Google Safe Browsing - Site 100% seguro</p>
-                <p className="texto-aviso">AVISO LEGAL: E-Consultas é um clube de assinatura que disponibiliza uma plataforma de telemedicina que oferece serviços de consultas
-                  médicas online. É fundamental compreender que a E-Consultas não é um plano de saúde e não deve ser considerada como tal.
+                <p className="texto-aviso">AVISO LEGAL: e-consultas é um clube de assinatura que disponibiliza uma plataforma de telemedicina que oferece serviços de consultas
+                  médicas online. É fundamental compreender que a e-consultas não é um plano de saúde e não deve ser considerada como tal.
                   Nossa plataforma não oferece atendimento médico presencial, sendo exclusivamente focada em consultas médicas realizadas
                   de forma virtual. Valores sujeitos a alteração sem aviso prévio.</p>
               </div>
@@ -102,7 +102,7 @@ function footer() {
         </section>
 
         <div className="text-center p-4 teste">
-          © 2023 e-Consultas:
+          © 2023 e-consultas:
           <a className="text-reset fw-bold" href="#"> e-consultas.com</a>
         </div>
 

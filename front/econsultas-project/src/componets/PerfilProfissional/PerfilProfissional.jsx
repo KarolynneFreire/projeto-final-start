@@ -16,18 +16,18 @@ function PerfilProfissional() {
                 
                 <div className="detalhes-profissional">
                 <label className="frase-profissional" htmlFor="">Nome</label>    
-                <input type="text" class="phrase-profissional" placeholder='ex:Maria' 
+                <input type="text" className="phrase-profissional" placeholder='ex:Maria' 
                 />
                 <label className="frase-profissional" htmlFor="">Localização</label>
-                <input type="text" class="phrase-profissional" placeholder='ex:Bairro,N°'/>
+                <input type="text" className="phrase-profissional" placeholder='ex:Bairro,N°'/>
                 <label className="frase-profissional" htmlFor="">Data de nascimento</label>
-                <input type="text" class="phrase-profissional" placeholder='ex:00/00/0000'/>
+                <input type="text" className="phrase-profissional" placeholder='ex:00/00/0000'/>
                 <label className="frase-profissional" htmlFor="">CRM/CRN</label>
-                <input type="text" class="phrase-profissional" placeholder='ex:0.000/0000'/>
+                <input type="text" className="phrase-profissional" placeholder='ex:0.000/0000'/>
                 <label className="frase-profissional" htmlFor="">Sobre mim</label>
-                <input type="text" class="phrase-sobre" placeholder=''/>
+                <input type="text" className="phrase-sobre" placeholder=''/>
                 <label className="frase-profissional" htmlFor="">Formação</label>
-                <input type="text" class="phrase-formacao" placeholder=''/>
+                <input type="text" className="phrase-formacao" placeholder=''/>
 
                 </div>
                 <button>Salvar</button>

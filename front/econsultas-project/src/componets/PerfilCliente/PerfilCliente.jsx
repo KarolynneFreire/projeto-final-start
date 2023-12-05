@@ -16,14 +16,14 @@ function PerfilCliente() {
                 
                 <div className="detalhes">
                 <label className="frase" htmlFor="">Nome</label>    
-                <input type="text" class="phrase" placeholder='ex:Maria' 
+                <input type="text" className="phrase" placeholder='ex:Maria' 
                 />
                 <label className="frase" htmlFor="">Localização</label>
-                <input type="text" class="phrase" placeholder='ex:Bairro,N°'/>
+                <input type="text" className="phrase" placeholder='ex:Bairro,N°'/>
                 <label className="frase" htmlFor="">Data de nascimento</label>
-                <input type="text" class="phrase" placeholder='ex:00/00/0000'/>
+                <input type="text" className="phrase" placeholder='ex:00/00/0000'/>
                 <label className="frase" htmlFor="">Gênero</label>
-                <input type="text" class="phrase" placeholder='ex:Cis'/>
+                <input type="text" className="phrase" placeholder='ex:Cis'/>
                 </div>
                 <button>Salvar</button>
                 </div>

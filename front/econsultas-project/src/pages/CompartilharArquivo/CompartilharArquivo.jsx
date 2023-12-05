@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './assets/css/CompartilharArquivo.css';
 
@@ -24,7 +24,7 @@ const CompartilharArquivo = () => {
     }
     console.log("Arquivo enviado:", arquivo);
     setMensagemErro('');
-    navigate('/pagamentos');
+    navigate('/pagamento');
 };
 
 

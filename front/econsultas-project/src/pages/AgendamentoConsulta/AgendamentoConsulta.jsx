@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useUser } from '../../contexts/UserContext'
 import { useNavigate } from 'react-router-dom'
 import './assets/css/AgendamentoConsulta.css'
@@ -42,7 +42,7 @@ const AgendamentoConsulta = () => {
                 <p>Escolha o dia e horário para sua consulta</p>
             </header>
             <section className="dados-profisisonal">
-                <h2>Roberth Lins</h2>
+                <h2>Erick Müller</h2>
                 <p>Nutricionista Clínico - CRN: 012345 (PE)</p>
             </section>
             <section className="selecionar-data">

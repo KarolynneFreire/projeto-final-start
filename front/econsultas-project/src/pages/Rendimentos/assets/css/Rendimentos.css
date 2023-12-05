@@ -1,7 +1,7 @@
 .container-rendimentos{
     display: flex;
     min-height: 100vh;
-    width: 100%;
+    width: 95%;
 }
 .pagina-rendimentos {
     flex-grow: 1;
@@ -22,6 +22,7 @@
     border: 1px solid #D0DEBF; 
     padding: 20px;
     margin-bottom: 20px;
+    width: 100%;
   }
   
   .solicitar-retirada h2,
@@ -46,6 +47,7 @@
 
 .detalhes-retirada {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     background-color: #D0DEBF;
     padding: 15px;
@@ -54,6 +56,7 @@
   
   .informacao-retirada {
     text-align: left;
+    margin: 0 5px;
   }
   
   .informacao-retirada span {
@@ -97,4 +100,31 @@
 
   .status-item-ativo::after {
     display: block;
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .container-rendimentos{
+      display: flex;
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    .detalhes-retirada {
+      flex-direction: column;
+      display: flex;
+    }
+
+    .informacao-retirada {
+      margin: 5px 0;
+    }
+
+    .h1 {
+      font-size: 1.5rem;
+    }
+
+    .h2 {
+      font-size: 0.7rem;
+    }
+  
   }

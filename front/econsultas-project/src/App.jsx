@@ -17,6 +17,7 @@ import MeusServicos from './pages/MeusServicos/MeusServicos';
 import Rendimentos from './pages/Rendimentos/Rendimentos';
 import Pagamento from './pages/Pagamento/Pagamento';
 import PrivateRouter from './PrivateRouter';
+import EscolhaProfissional from './pages/HomeEscolhaProfissional/CardHomeEscolhaProfissional';
 
 function App() {
   return (
@@ -28,12 +29,11 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/sobre" element={<Sobre />} />
-          <Route path= '/pagamento' element = {<Pagamento/>}></Route>
-
-          <Route Component={<PrivateRouter />}>
+          <Route Component={<PrivateRouter />}> 
           <Route path="/satisfacao" element={<Satisfacao />} />
           <Route path= '/pagamento' element = {<Pagamento/>}></Route>
           <Route path="/home-paciente" element={<HomePaciente />} />
+          <Route path="/escolha-profissional" element={<EscolhaProfissional />} />
           <Route path="/home-profissional" element={<HomeProfissional />} />
           <Route path="/agendamento-consulta" element={<AgendamentoConsulta />} />
           <Route path="/compartilhar-arquivo" element={<CompartilharArquivo />} />
