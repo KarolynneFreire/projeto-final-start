@@ -18,6 +18,7 @@ import Pagamento from './pages/Pagamento/Pagamento';
 import PrivateRouter from './PrivateRouter';
 import EscolhaProfissional from './pages/HomeEscolhaProfissional/CardHomeEscolhaProfissional';
 import TeleConsulta from './pages/MeetTeleconsulta/MeetTeleconsulta';
+import Historico from './pages/Historico/Historico';
 
 
 function App() {
