@@ -43,7 +43,7 @@ function App() {
             <Route path="/criar-servico-profissional" element={<CriarServicoProfissional />} />
             <Route path="/meus-servicos" element={<MeusServicos />} />
             <Route path="/meus-rendimentos" element={<Rendimentos />} />
-
+            <Route path='/historico' element={<Historico />} />
 
           </Route>
         </Routes>
