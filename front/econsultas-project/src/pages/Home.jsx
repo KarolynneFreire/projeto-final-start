@@ -5,6 +5,8 @@ import Depoimento from '../componets/Depoimento/Depoimento'
 import Faq from '../componets/Faq/Faq'
 import QuemSomos from '../componets/QuemSomos/QuemSomos'
 import CardsProfissionais from '../componets/CardsProfissionais/Card'
+import MissaoVisaoValores from '../componets/MissaoVisaoValores/MissaoVisaoValores'
+
 
 export default function Home() {
   return (
@@ -15,8 +17,10 @@ export default function Home() {
       <QuemSomos></QuemSomos>
       <CardsProfissionais></CardsProfissionais>
       <Beneficios></Beneficios>
-      <Faq></Faq> 
-      
+      <Faq></Faq>
+      <MissaoVisaoValores></MissaoVisaoValores>
+
+
     </div>
   )
 }

@@ -1,0 +1,18 @@
+*{
+   
+    font-family: sans-serif;
+}
+
+
+.check{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.termos{
+   
+    width: 500px;
+    margin: 0 auto;
+    text-align:justify;
+}
