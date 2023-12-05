@@ -35,7 +35,7 @@ function Faq() {
 
                         <div className="faq-pergunta" id="botao-faq" onClick={() => toggleButton(1)}>
                                 <div className='faq-pergunta-'>
-                                    <p>
+                                    <p className='faq-paragrafo'>
                                     <span>Como funciona o e-consultas?</span>
                                     <img src={seta} alt="seta para baixo" />
                                     </p>
@@ -48,7 +48,7 @@ function Faq() {
                             </div>
 
                             <div className="faq-pergunta" id="botao-faq" onClick={() => toggleButton(2)}>
-                                <p>
+                                <p className='faq-paragrafo'>
                                 <span>É seguro usar o e-consultas?</span>
                                 <img src={seta} alt="seta para baixo" />
                                 </p>
@@ -60,7 +60,7 @@ function Faq() {
                             </div>
 
                             <div className="faq-pergunta" id="botao-faq" onClick={() => toggleButton(3)}>
-                                <p>
+                                <p className='faq-paragrafo'>
                                 <span>Quais especialidades estão disponíveis?</span>
                                 <img src={seta} alt="seta para baixo" />
                                 </p>
@@ -72,7 +72,7 @@ function Faq() {
                             </div>
 
                             <div className="faq-pergunta" id="botao-faq" onClick={() => toggleButton(4)}>
-                                <p>
+                                <p className='faq-paragrafo'>
                                 <span>Posso cancelar uma consulta?</span>
                                 <img src={seta} alt="seta para baixo" />
                                 </p>
@@ -88,7 +88,7 @@ function Faq() {
                         <div className="faq-coluna-direita">
 
                         <div className="faq-pergunta" id="botao-faq" onClick={() => toggleButton(5)}>
-                                <p>
+                                <p className='faq-paragrafo'>
                                 <span>Os profissionais são qualificados?</span>
                                 <img src={seta} alt="seta para baixo" />
                                 </p>
@@ -100,7 +100,7 @@ function Faq() {
                             </div>
 
                             <div className="faq-pergunta" id="botao-faq" onClick={() => toggleButton(6)}>
-                                <p>
+                                <p className='faq-paragrafo'>
                                 <span>Quais opções de pagamentos?</span>
                                 <img src={seta} alt="seta para baixo" />
                                 </p>
@@ -112,7 +112,7 @@ function Faq() {
                             </div>
 
                             <div className="faq-pergunta" id="botao-faq" onClick={() => toggleButton(7)}>
-                                <p>
+                                <p className='faq-paragrafo'>
                                 <span>Quais horários de funcionamento?</span>
                                 <img src={seta} alt="seta para baixo" />
                                 </p>
@@ -124,7 +124,7 @@ function Faq() {
                             </div>
 
                             <div className="faq-pergunta" id="botao-faq" onClick={() => toggleButton(8)}>
-                                <p>
+                                <p className='faq-paragrafo'>
                                 <span>Vocês aceitam plano de saúde?</span>
                                 <img src={seta} alt="seta para baixo" />
                                 </p>
