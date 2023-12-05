@@ -4,9 +4,9 @@ import Carrossel from '../componets/Carrossel/Carrossel'
 import ComoFunciona from '../componets/ComoFunciona/ComoFunciona'
 import Depoimento from '../componets/Depoimento/Depoimento'
 import Faq from '../componets/Faq/Faq'
-import QuemSomos from '../componets/QuemSomos/QuemSomos'
-import CardsProfissionais from '../componets/CardsProfissionais/Card'
-import SobreNos from '../componets/SobreNos/'
+import QuemSomos from './../componets/QuemSomos/QuemSomos';
+import SobreNos from './../componets/SobreNos/SobreNos';
+import CardsProfissionais from './../componets/CardsProfissionais/Card'
 
 
 export default function Home() {
@@ -23,3 +23,5 @@ export default function Home() {
     </div>
   )
 }
+
+
