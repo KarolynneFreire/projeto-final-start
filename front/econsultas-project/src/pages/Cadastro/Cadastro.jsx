@@ -87,11 +87,9 @@ function Cadastro() {
                 </div>
                 <button type='submit' className='btn btn-lg btn-success w-100 fs-6'>Confirmar</button>
                 <div className='form-check mb-3 check-cadastro'>
-                    <input type="checkbox" className='form-check-input' name="" id="formCheck" />
-                    <label htmlFor="formCheck" className='form-check-label text-secondary'><small className='text-black'>Você concorda com nossos termos e políticas</small></label>
-                  </div>
+                </div>
                 <Link to="/login" className='btn btn-default border w-100 fs-6 text-decoration-none text-black'>Login</Link>
-            </form>
+            </form> 
 
 
 </div>

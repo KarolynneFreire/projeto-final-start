@@ -51,14 +51,16 @@
 .botões{
     width: 100%;
     display: flex;
+    margin-bottom: 32px;
 }
 
 .botões-centro{
 display: flex;
 margin: auto;
+margin-bottom: 16px;
 padding-left: 150px;
 }
-
+ 
 .botões-centro img{
     margin: auto 10px;
 }

@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import { UserProvider } from './contexts/UserContext';
 import Navbar from './componets/NavBar/NavBar';
 import Cadastro from './pages/Cadastro/Cadastro';
-import Cliente from './pages/Cliente';
 import Home from './pages/Home';
 import Login from './pages/Login/Login';
 import HomePaciente from './pages/HomePaciente/HomePaciente';
@@ -16,9 +15,9 @@ import CriarServicoProfissional from './pages/CriarServicoProfissional/CriarServ
 import MeusServicos from './pages/MeusServicos/MeusServicos';
 import Rendimentos from './pages/Rendimentos/Rendimentos';
 import Pagamento from './pages/Pagamento/Pagamento';
-import CardHomeEscolhaProfissional from './pages/HomeEscolhaProfissional/CardHomeEscolhaProfissional'
 import PrivateRouter from './PrivateRouter';
 import EscolhaProfissional from './pages/HomeEscolhaProfissional/CardHomeEscolhaProfissional';
+import TeleConsulta from './pages/MeetTeleconsulta/MeetTeleconsulta';
 
 
 function App() {
@@ -32,12 +31,12 @@ function App() {
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/sobre" element={<Sobre />} />
 
-          <Route path='/pagamento' element={<Pagamento />} />
-
           <Route element={<PrivateRouter />}>
+          <Route path='/pagamento' element={<Pagamento />} />
+          <Route path="/teleconsulta" element={<TeleConsulta />} />
             <Route path="/satisfacao" element={<Satisfacao />} />
             <Route path="/home-paciente" element={<HomePaciente />} />
-            <Route path="/escolha-profissional" element={<CardHomeEscolhaProfissional />} />
+            <Route path="/escolha-profissional" element={<EscolhaProfissional />} />
             <Route path="/home-profissional" element={<HomeProfissional />} />
             <Route path="/agendamento-consulta" element={<AgendamentoConsulta />} />
             <Route path="/compartilhar-arquivo" element={<CompartilharArquivo />} />

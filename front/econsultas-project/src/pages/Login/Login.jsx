@@ -15,12 +15,6 @@ function Login() {
     senha: ''
   });
 
-
-  // const navigate = useNavigate()
-  // const [errors, setErrors] = useState({})
-  // const { login: updateUser } = useUser()
-
-
   const navigate = useNavigate();
   const [errors, setErrors] = useState({
   })
@@ -100,10 +94,6 @@ const handleSubmit = (event) => {
                   <div className='input-group mb-3'>
                     <button type='submit' className='btn btn-lg btn-success w-100 fs-6'>Logar</button>
                   </div>
-                  <div className='input-group mb-3'>
-                    <button type='submit' className='btn btn-lg btn-light w-100  fs-6'> <img src={google} alt="marca da google" className='google m-2' />
-                      <small>Faça login pelo Google</small></button>
-                  </div>
                   <div className='row'>
                     <small>Não tem conta? <Link to="/cadastro">Cadastre-se</Link> </small>
                   </div>
@@ -116,7 +106,7 @@ const handleSubmit = (event) => {
 
 
             </div>
-
+ 
 
           </div>
         </div>

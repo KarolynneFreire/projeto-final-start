@@ -12,7 +12,7 @@ const db = mysql.createConnection({
     password: "",
     database: "testeversaofinal"
 });
-
+ 
 db.connect((err) => {
     if (err) {
         console.error('Erro ao conectar ao banco de dados:', err);

@@ -20,12 +20,6 @@ const Painel = () => {
             <button className="sidebar-btn-profissional" onClick={() => handleNavigation('/meus-servicos')}>
                 Meus serviços
             </button>
-            <button className="sidebar-btn-profissional" onClick={() => handleNavigation('/avaliacoes')}>
-                Avaliações
-            </button>
-            <button className="sidebar-btn-profissional" onClick={() => handleNavigation('/historico')}>
-                Histórico
-            </button>
             <button className="sidebar-btn-profissional" onClick={() => handleNavigation('/meus-rendimentos')}>
                 Rendimentos
             </button>

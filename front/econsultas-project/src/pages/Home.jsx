@@ -16,7 +16,7 @@ export default function Home() {
       <CardsProfissionais></CardsProfissionais>
       <Beneficios></Beneficios>
       <Faq></Faq> 
-      
+       
     </div>
   )
 }
