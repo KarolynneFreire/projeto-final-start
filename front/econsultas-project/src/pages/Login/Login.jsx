@@ -7,6 +7,7 @@ import login from "../Login/assets/img/log-in.webp"
 import "../Login/assets/css/styles.css"
 import google from "../Login/assets/img/logotipo-google.jpg"
 
+
 function Login() {
   const { setUser } = useUser();
   const [values, setValues] = useState({
@@ -14,36 +15,51 @@ function Login() {
     senha: ''
   });
 
+
   // const navigate = useNavigate()
   // const [errors, setErrors] = useState({})
   // const { login: updateUser } = useUser()
+
 
   const navigate = useNavigate();
   const [errors, setErrors] = useState({
   })
 
+
   const handleInput = (event) => {
     setValues({ ...values, [event.target.name]: event.target.value.trim() });
 };
 
-const handleSubmit = (event) => {
-    event.preventDefault();
-    const newErrors = Validacao(values);
-    setErrors(newErrors);
 
-    if (Object.values(newErrors).every(error => error === "")) {
-        axios.post('http://localhost:8081/login', values)
-            .then(res => {
-                if (res.data.usuario === "Sucesso") {
-                  setUser({ email: values.email });
-                  navigate('/home-paciente');
-                } else {
-                    alert("Credenciais inválidas");
-                }
-            })
-            .catch(err => console.error(err));
-    }
-};
+const handleSubmit = (event) => {
+  event.preventDefault();
+  const newErrors = Validacao(values);
+  setErrors(newErrors);
+
+
+  if (Object.values(newErrors).every(error => error === "")) {
+    axios.post('http://localhost:8081/login', values)
+      .then(res => {
+        if (res.data.usuario) {
+          setUser(res.data.usuario);
+          navigate('/home-paciente');
+        } else {
+          alert("Credenciais inválidas");
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        alert("Erro ao fazer login");
+      });
+  }
+}
+
+
+
+
+
+
+
 
   return (
     <>
@@ -61,6 +77,7 @@ const handleSubmit = (event) => {
               <div className='header-text mb-4'>
                 <h1>Login</h1>
                 <p>Estamos felizes em ter você de volta </p>
+
 
                 <form className='form-card' action="" onSubmit={handleSubmit}>
                   <div className='mb-3'>
@@ -91,21 +108,27 @@ const handleSubmit = (event) => {
                     <small>Não tem conta? <Link to="/cadastro">Cadastre-se</Link> </small>
                   </div>
 
+
                 </form>
+
 
               </div>
 
+
             </div>
+
 
           </div>
         </div>
-        
+       
       </div>
+
 
 
 
     </>
   )
 }
+
 
 export default Login

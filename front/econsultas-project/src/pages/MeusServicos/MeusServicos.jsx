@@ -3,14 +3,18 @@ import axios from 'axios'
 import Painel from '../../componets/Painel/Painel'
 import './assets/css/MeusServicos.css'
 
+
 const MeusServicos = () => {
     const [servicos, setServicos] = useState([]);
     const [filtroStatus, setFiltroStatus] = useState('Ativo')
 
 
+
+
     useEffect(() => {
         atualizarListaServicos();
     }, []);
+
 
     const atualizarListaServicos = () => {
         axios.get('http://localhost:8081/meus-servicos/1')
@@ -21,6 +25,7 @@ const MeusServicos = () => {
                 console.error('Erro ao buscar serviços!', error)
             });
     };
+
 
     const excluirServico = (id) => {
         if (window.confirm('Tem certeza que deseja excluir este serviço?')) {
@@ -34,6 +39,7 @@ const MeusServicos = () => {
         }
     }
 
+
     const alterarStatusServico = (id, novoStatus) => {
         axios.put(`http://localhost:8081/atualizar-servico/${id}`, { status: novoStatus })
             .then(() => {
@@ -44,7 +50,9 @@ const MeusServicos = () => {
             });
     };
 
+
     const servicosFiltrados = servicos.filter(servico => servico.status === filtroStatus);
+
 
     return (
         <div className='container-meus-servicos'>
@@ -52,19 +60,20 @@ const MeusServicos = () => {
             <div className="pagina-meus-servicos">
                 <h2>Meus Serviços</h2>
                 <div className="status-servicos">
-                    <div 
-                        className={`status-item ${filtroStatus === 'Ativo' ? 'status-item-ativo' : ''}`} 
+                    <div
+                        className={`status-item ${filtroStatus === 'Ativo' ? 'status-item-ativo' : ''}`}
                         onClick={() => setFiltroStatus('Ativo')}
                     >
                         Ativo ({servicos.filter(servico => servico.status === 'Ativo').length})
                     </div>
-                    <div 
-                        className={`status-item ${filtroStatus === 'Inativo' ? 'status-item-ativo' : ''}`} 
+                    <div
+                        className={`status-item ${filtroStatus === 'Inativo' ? 'status-item-ativo' : ''}`}
                         onClick={() => setFiltroStatus('Inativo')}
                     >
                         Inativo ({servicos.filter(servico => servico.status === 'Inativo').length})
                     </div>
                 </div>
+
 
                 <div className="lista-servicos">
                     {servicosFiltrados.map(servico => (
@@ -98,5 +107,6 @@ const MeusServicos = () => {
         </div>
     )
 }
+
 
 export default MeusServicos

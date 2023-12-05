@@ -1,18 +1,13 @@
-import { useEffect } from 'react';
-import { useNavigate, useLocation, Outlet } from 'react-router-dom';
+import { useLocation, Outlet, Navigate } from 'react-router-dom';
 import { useUser } from './contexts/UserContext';
 
 
 export default function PrivateRouter() {
   const location = useLocation();
-  const navigate = useNavigate();
   const { isLoggedIn } = useUser();
 
-  useEffect(() => {
-    if (!isLoggedIn) {
-      navigate('/login');
-    }
-  }, [location]);
 
-  return <Outlet />;
+  return isLoggedIn ? <Outlet /> : <Navigate to="/login" state={{ from: location }} replace />;
 }
+ 
+
