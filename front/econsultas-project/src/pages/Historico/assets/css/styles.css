@@ -1,0 +1,43 @@
+.container-historico {
+    display: flex;
+}
+
+
+.historicoTotal {
+    flex-grow: 1; /* Ocupa todo o espaço disponível ao lado do Painel */
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+
+.historicoTexto {
+    margin-left: 3%;
+    margin-top: -1%;
+}
+
+
+.mesAtual h2,
+.mesPassado h2 {
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+
+h1,
+h2 {
+    color: #006400;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+ul li {
+    color: #739B65;
+    margin: 10px;
+    padding: 10px;
+}

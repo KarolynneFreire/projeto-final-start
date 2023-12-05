@@ -19,7 +19,7 @@ import Pagamento from './pages/Pagamento/Pagamento';
 import CardHomeEscolhaProfissional from './pages/HomeEscolhaProfissional/CardHomeEscolhaProfissional'
 import PrivateRouter from './PrivateRouter';
 import EscolhaProfissional from './pages/HomeEscolhaProfissional/CardHomeEscolhaProfissional';
-
+import Historico from './pages/Historico/Historico';
 
 function App() {
   return (
@@ -44,7 +44,7 @@ function App() {
             <Route path="/criar-servico-profissional" element={<CriarServicoProfissional />} />
             <Route path="/meus-servicos" element={<MeusServicos />} />
             <Route path="/meus-rendimentos" element={<Rendimentos />} />
-
+            <Route path='/historico' element={<Historico />} />
 
           </Route>
         </Routes>

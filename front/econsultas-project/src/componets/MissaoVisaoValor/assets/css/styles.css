@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+   
+   
+    .geral {
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+   
+   
+   
+    .tudo {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    }
+   
+   
+    .missao, .visao, .valor {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+   
+    margin: 0 10px;
+    }
+   
+   
+    .imagemValor img,
+    .imagemVisao img,
+    .imagemMissao img {
+        max-width: 100%;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        border: 5px solid #447A38;
+        padding: 5px;
+    }
+   
+   
+    .textoValor ul {
+    list-style-type: none;
+    padding: 0;
+    }
+   
+    .textoValor li {
+    margin-bottom: 5px;
+    }
